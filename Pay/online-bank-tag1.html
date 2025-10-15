@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Quicksand:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="pay-page">
+      <div class="payment-page">
+        <h2 class="title">ONLINE PAYMENT</h2>
+
+        <form class="payment-form">
+          <div class="section">
+            <h3 class="subtitle">THÔNG TIN VẬN CHUYỂN VÀ THANH TOÁN</h3>
+
+            <div class="box">
+              <div class="group">
+                <label for="name">Tên</label>
+                <input type="text" id="name" placeholder="Toandang" />
+              </div>
+              <div class="group">
+                <label for="email">E-mail</label>
+                <input
+                  type="email"
+                  id="email"
+                  placeholder="toandesignmtncn@gmail.com"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="section2">
+            <h3 class="subtitle">THÔNG TIN THANH TOÁN</h3>
+            <div class="box">
+              <div class="half">
+                <label for="card">Số thẻ</label>
+                <input type="text" id="card" placeholder="Card number" />
+              </div>
+              <div class="half">
+                <label for="expiry">Hết hạn</label>
+                <input type="text" id="expiry" placeholder="MM/YY" />
+              </div>
+              <div class="half">
+                <label for="cvc">Cvc</label>
+                <input type="text" id="cvc" placeholder="xxx" />
+              </div>
+            </div>
+          </div>
+          <div class="actions">
+            <button type="submit" class="btn btn-primary">Thanh toán</button>
+            <button type="button" class="btn btn-secondary">Hủy bỏ</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

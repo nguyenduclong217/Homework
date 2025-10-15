@@ -1,0 +1,125 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  width: 1400px;
+  font-family: "Manrope", sans-serif;
+}
+
+input {
+  border: none;
+  outline: none;
+}
+.container {
+  width: 1400px;
+  max-width: 95%;
+  background: #fff;
+}
+.box {
+  width: 1006px;
+  height: 643px;
+  border-radius: 21px;
+  opacity: 1;
+  border-width: 1px;
+  text-align: center;
+  margin: 0 auto;
+  border: 1px solid #e0e0e0;
+}
+.box3 {
+  width: 531px;
+  height: 459px;
+  margin: 68px auto;
+}
+h2 {
+  margin: 75px auto 45px;
+  font-family: Quicksand;
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 3.2rem;
+  text-align: center;
+}
+.text-head .info {
+  font-family: Inter;
+  font-weight: 600;
+  font-style: Semi Bold;
+  font-size: 2.4rem;
+  color: rgba(122, 122, 122, 1);
+}
+.text-head .desc {
+  font-family: Inter;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 1.6rem;
+  margin-top: 9px;
+  color: rgba(36, 36, 36, 1);
+}
+img {
+  margin-top: 24px;
+}
+p.sub-text {
+  color: #666;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.qr-section img {
+  width: 140px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.qr-code {
+  display: block;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto 10px auto;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+hr {
+  width: 60%;
+  margin: 30px auto;
+  border: none;
+  border-top: 1px solid #eee;
+}
+
+.total {
+  font-weight: bold;
+  color: #000;
+  font-size: 18px;
+}
+.box2 {
+  margin-top: 40px;
+}
+.box2 .pay {
+  display: flex;
+  margin-top: 10px;
+  gap: 20px;
+  justify-content: center;
+}
+.box2 .text {
+  width: 140px;
+  font-family: Inter;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 1.5rem;
+  color: rgba(36, 36, 36, 1);
+  text-align: right;
+}
+.box2 .price {
+  width: 140px;
+  font-family: Inter;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 1.6rem;
+  text-align: left;
+}

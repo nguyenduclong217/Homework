@@ -1,0 +1,159 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 10px;
+}
+body {
+  width: 1400px;
+}
+input {
+  border: none;
+}
+.btn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 600px;
+  border-radius: 50px;
+  padding: 0 16px;
+  line-height: 32px;
+  min-width: 159px;
+  border: 1px solid black;
+  user-select: none;
+  cursor: pointer;
+}
+.pay-page {
+  width: 1440px;
+  height: 900px;
+  opacity: 1;
+}
+.payment-page {
+  width: 600px;
+  height: 600px;
+  margin: 128px auto;
+}
+.payment-page .title {
+  text-align: center;
+  font-family: Quicksand;
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 3.3rem;
+  line-height: 100%;
+  margin-bottom: 47px;
+}
+.payment-form {
+  width: 475px;
+  height: 392px;
+  margin: 0 auto;
+}
+.payment-form .section .subtitle {
+  font-family: Manrope;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 1.5rem;
+  line-height: 24px;
+  text-transform: uppercase;
+  margin-bottom: 14px;
+}
+.payment-form .section .box {
+  width: 475px;
+  height: 96px;
+  border-radius: 15px;
+  border: 1px solid rgba(229, 229, 229, 1);
+}
+.payment-form .section .box .group {
+  width: 475px;
+  height: 48px;
+}
+.payment-form .section .box .group label {
+  font-family: Manrope;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 1.5rem;
+  line-height: 24px;
+  color: rgba(184, 184, 184, 1);
+  margin-left: 27px;
+  width: 50px;
+  display: inline-block;
+}
+.payment-form .section .box .group input {
+  font-family: Manrope;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 1.5rem;
+  line-height: 24px;
+  color: rgba(36, 36, 36, 1);
+  width: 340px;
+  height: 48px;
+  margin-left: 17px;
+  border: none;
+  outline: none;
+}
+.payment-form .section2 .subtitle {
+  font-family: Manrope;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 1.5rem;
+  line-height: 24px;
+  text-transform: uppercase;
+  margin: 28px 0 9px;
+}
+.payment-form .section2 .box {
+  width: 475px;
+  height: 200px;
+  border-width: 1px;
+  border-radius: 15px;
+  border-radius: 15px;
+  border: 1px solid rgba(229, 229, 229, 1);
+}
+.payment-form .section2 .box .half {
+  width: 475px;
+  height: 66.6px;
+}
+.payment-form .section2 .box .half label {
+  font-family: Manrope;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 1.5rem;
+  line-height: 24px;
+  color: rgba(18, 18, 18, 1);
+  margin-left: 27px;
+  width: 70px;
+  display: block;
+}
+.payment-form .section2 .box .half input {
+  font-family: Manrope;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 1.5rem;
+  line-height: 24px;
+  color: rgba(36, 36, 36, 1);
+  width: 380px;
+  height: 40px;
+  margin-left: 27px;
+  border: none;
+  outline: none;
+}
+.payment-page .actions {
+  margin-top: 20px;
+  width: 474px;
+  height: 100px;
+  /* display: flex;  */
+}
+.payment-page .actions .btn-primary {
+  margin-bottom: 11px;
+  background-color: rgba(237, 90, 37, 1);
+}
+.payment-page .actions .btn-primary,
+.btn-secondary {
+  width: 100%;
+  height: 44px;
+  border: none;
+}
+.payment-page .actions .btn-secondary {
+  color: rgba(50, 50, 50, 1);
+}

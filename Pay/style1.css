@@ -1,0 +1,226 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  width: 1400px;
+  font-family: "Manrope", sans-serif;
+}
+
+input {
+  border: none;
+  outline: none;
+}
+
+.btn {
+  display: inline-block;
+  font-size: 1.4rem;
+  font-weight: 600;
+  border-radius: 50px;
+  padding: 0 16px;
+  line-height: 32px;
+  min-width: 159px;
+  cursor: pointer;
+  user-select: none;
+  border: none;
+}
+
+.pay-page {
+  width: 1440px;
+  height: 900px;
+}
+
+.payment-page {
+  width: 1006px;
+  height: 700px;
+  margin: 75px auto 0;
+}
+.payment-page .title {
+  font-family: Quicksand;
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 3.2rem;
+  text-align: center;
+  margin-bottom: 26px;
+}
+.payment-page .box {
+  width: 1006px;
+  height: 643px;
+}
+.payment-page .box .order-info {
+  width: 941px;
+  height: 96px;
+  border-radius: 15px;
+  opacity: 1;
+  border-width: 1px;
+  border: 1px solid rgba(229, 229, 229, 1);
+  background-color: rgba(255, 244, 241, 1);
+}
+.payment-page .box .order-info .order-row {
+  width: 941px;
+  height: 48px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.payment-page .box .row1 {
+  border-bottom: 2px solid rgba(229, 229, 229, 1);
+}
+.payment-page .box .order-info .order-row span {
+  width: 120px;
+}
+.payment-page .box .order-info .row1 span {
+  font-family: Inter;
+  font-weight: 600;
+  font-style: Semi Bold;
+  font-size: 1.5rem;
+  line-height: 121%;
+  letter-spacing: 0%;
+  color: rgba(18, 18, 18, 1);
+}
+.payment-page .box .order-info .row2 span {
+  font-family: Inter;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 1.4rem;
+  line-height: 121%;
+  letter-spacing: 0%;
+  color: rgba(121, 115, 115, 1);
+}
+.box .payment-form {
+  margin-top: 45px;
+}
+.box .payment-form .subtitle {
+  font-family: Inter;
+  font-weight: 600;
+  font-style: Semi Bold;
+  font-size: 2.4rem;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.box .payment-form .box3 {
+  width: 545px;
+  height: 130px;
+  border-radius: 10px;
+  margin: 0 auto;
+  /* display: flex; */
+}
+.box .payment-form .box3 .half {
+  margin-top: 10px;
+  width: 545px;
+  height: 36px;
+}
+.box .payment-form .box3 .half label {
+  font-family: Manrope;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 1.5rem;
+  line-height: 137%;
+  letter-spacing: 0%;
+  width: 100px;
+  display: inline-block;
+}
+.box .payment-form .box3 .half input {
+  width: 421px;
+  height: 36px;
+  border-radius: 10px;
+  margin-left: 10px;
+  background: rgba(237, 237, 237, 1);
+}
+.box .payment-form .box3 .half1 {
+  margin-top: 10px;
+}
+.box .payment-form .box3 .half1 label {
+  font-family: Manrope;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 1.5rem;
+  line-height: 137%;
+  letter-spacing: 0%;
+  width: 100px;
+  display: inline-block;
+}
+.box .payment-form .box3 .half1 input {
+  width: 320px;
+  height: 36px;
+  border-radius: 10px;
+  margin-left: 10px;
+  background: rgba(237, 237, 237, 1);
+}
+.half1 {
+  position: relative;
+}
+.pin-sample {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 1.4rem;
+  color: #de4108;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 30px;
+  border-radius: 10px;
+  background: rgba(237, 237, 237, 1);
+}
+.fee-box {
+  margin-top: 66px;
+  width: 400px;
+  height: 70px;
+  margin-left: 207px;
+}
+.fee-box .fee-row .price {
+  font-family: Manrope;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 1.6rem;
+  line-height: 137%;
+  text-align: right;
+  width: 140px;
+  display: inline-block;
+}
+.fee-box .fee-row .vour {
+  font-family: Inter;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 1.5rem;
+  line-height: 100%;
+  color: rgba(36, 36, 36, 1);
+  margin-left: 30px;
+}
+.fee-box .fee-row .vour1 {
+  font-family: Inter;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 1.5rem;
+  line-height: 100%;
+  color: rgba(237, 90, 37, 1);
+  margin-left: 30px;
+}
+.actions {
+  margin-top: 47px;
+  width: 421px;
+  height: 47px;
+  margin-left: 331px;
+}
+.actions .btn1 {
+  width: 259px;
+  height: 44px;
+  background-color: rgba(237, 90, 37, 1);
+  color: white;
+}
+.actions .btn2 {
+  width: 151px;
+  height: 44px;
+  border-radius: 30px;
+}

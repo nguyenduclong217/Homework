@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style1.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Manrope:wght@400;600&family=Quicksand:wght@500;600&display=swap"
+      rel="stylesheet"
+    />
+    <title>Online Bank</title>
+  </head>
+  <body>
+    <div class="pay-page">
+      <div class="payment-page">
+        <h2 class="title">ONLINE BANK</h2>
+
+        <div class="box">
+          <div class="order-info">
+            <div class="order-row row1">
+              <span>Mã đơn hàng</span>
+              <span>Giá trị</span>
+              <span>Phí giao dịch</span>
+              <span>Thành tiền</span>
+            </div>
+            <div class="order-row row2">
+              <span>s-12345689-tm</span>
+              <span>80,000đ</span>
+              <span>2.484đ</span>
+              <span>2.484đ</span>
+            </div>
+          </div>
+
+          <form class="payment-form">
+            <h3 class="subtitle">Online bằng thẻ ATM</h3>
+            <div class="box3">
+              <div class="half">
+                <label for="card">Số thẻ</label>
+                <input type="text" id="card" />
+              </div>
+              <div class="half">
+                <label for="name">Tên chủ thẻ</label>
+                <input type="text" id="name" />
+              </div>
+              <div class="half1">
+                <label for="pin">Mã bảo mật</label>
+                <input
+                  type="password"
+                  id="pin"
+                  placeholder="Nhập 3 ký tự bảo mật"
+                />
+                <span class="pin-sample">571</span>
+              </div>
+            </div>
+
+            <div class="fee-box">
+              <div class="fee-row">
+                <span class="price">Phí thanh toán:</span>
+                <span class="vour">1.700đ - 1.1%</span>
+              </div>
+              <div class="fee-row total">
+                <span class="price">Tổng tiền:</span>
+                <span class="vour1">83.000đ</span>
+              </div>
+            </div>
+
+            <div class="actions">
+              <button type="submit" class="btn btn1">Tiếp tục</button>
+              <button type="button" class="btn btn2">Chọn lại</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
