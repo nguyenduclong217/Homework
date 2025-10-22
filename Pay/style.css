@@ -7,7 +7,10 @@ html {
   font-size: 10px;
 }
 body {
-  width: 1400px;
+  background: url(./img/v904-nunny-017-d\ 1.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  overscroll-behavior: none;
 }
 input {
   border: none;
@@ -27,6 +30,7 @@ input {
   cursor: pointer;
 }
 .pay-page {
+  margin: auto;
   width: 1440px;
   height: 900px;
   opacity: 1;
@@ -61,9 +65,10 @@ input {
 }
 .payment-form .section .box {
   width: 475px;
-  height: 96px;
+  height: 99px;
   border-radius: 15px;
   border: 1px solid rgba(229, 229, 229, 1);
+  background-color: rgba(255, 255, 255, 1);
 }
 .payment-form .section .box .group {
   width: 475px;
@@ -90,7 +95,8 @@ input {
   width: 340px;
   height: 48px;
   margin-left: 17px;
-  border: none;
+  border-bottom: red;
+  /* border: none; */
   outline: none;
 }
 .payment-form .section2 .subtitle {
@@ -109,6 +115,7 @@ input {
   border-radius: 15px;
   border-radius: 15px;
   border: 1px solid rgba(229, 229, 229, 1);
+  background-color: rgba(255, 255, 255, 1);
 }
 .payment-form .section2 .box .half {
   width: 475px;
@@ -156,4 +163,7 @@ input {
 }
 .payment-page .actions .btn-secondary {
   color: rgba(50, 50, 50, 1);
+}
+.payment-page .actions .btn-secondary:hover {
+  background-color: rgb(189, 175, 169);
 }

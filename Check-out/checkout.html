@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+     <link rel="stylesheet" href="responsive-check-out.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Quicksand:wght@300..700&display=swap"
@@ -14,7 +15,9 @@
   </head>
   <body>
     <!-- header -->
-    <div class="header">
+     <input type="checkbox" id="menu" hidden>
+<div class="page-home">
+      <div class="header">
       <div class="top">
         <div class="header-top">
           <div class="header-top-left"><p>Về chúng tôi</p></div>
@@ -24,8 +27,8 @@
              <i class="fa-solid fa-chevron-down"></i></div>
             <div class="lang"><span>ENG</span>
              <i class="fa-solid fa-chevron-down"></i></div>
-            <div class="acc"><img src="./icon/mingcute_user-4-line.svg" alt="">
-              <span>Tài khoản</span></div>
+            <a href="/f8-zoom-module-1/Account2/ac-tag1.html" class="acc"><img src="./icon/mingcute_user-4-line.svg" alt="">
+              <span>Tài khoản</span></a>
           </div>
           </div>
         </div>
@@ -65,14 +68,14 @@
       <div class="text-list">
         <div class="header-nav">
           <div class="nav">
+             <img src="./img3/Vector.svg" alt="33" class="square">
             <div class="list">
-              <div class="header-menu">Trang chủ</div>
+              <a href="/f8-zoom-module-1/Home/home.html" class="header-menu">Trang chủ</a>
               <div class="header-menu-item">
                  <div class="card">
                   <span>Thẻ điện thoại</span>
                    <i class="fa-solid fa-chevron-down"></i>
                 </div>
-                <div class="overlay"></div>
                 <div class="box-hidden">
                   <div class="close">
                     <div class="list-select-main">
@@ -222,9 +225,39 @@ WTFast card</a>
                 </div>
               </div> 
             </div>
-            <div class="header-hotline"><img src="./icon/Vector (5).svg" alt=""><span>Hotline: 19200 10800</span></div>
+            <div class="header-hotline"><img src="./img2/Group 21828.svg" alt="phone-img" class="img4"><img src="./icon/Vector (5).svg" alt="" class="img3"><span>Hotline: 19200 10800</span></div>
           </div>
         </div>
+      </div>
+        <div class="nav2">
+        <label for="menu">
+         <img src="./img3/ic_round-menu.svg" alt="img">
+        </label>
+        <div class="icon2">
+          <img src="./img3/gg_search.svg" alt="">
+          <img src="./img3/Vector (2).svg" alt="">
+        </div>
+      </div>
+       <div class="home-menu">
+        <div class="title">
+          <div class="img"><img src="./img2/Group 21825.svg" alt="img"></div>
+          <label for="menu" ><i class="fa-solid fa-x"></i></label>
+          </div>
+          <hr>
+          <div class="list-select">
+            <div class="box">
+              <a class="title-small">Card voucher</a>
+               <i class="fa-solid fa-chevron-down"></i>
+            </div>
+            <div class="box">
+              <a class="title-small">Top-Up</a>
+               <i class="fa-solid fa-chevron-down"></i>
+            </div>
+            <div class="box">
+              <a class="title-small">Contact us</a>
+               <i class="fa-solid fa-chevron-down"></i>
+            </div>
+          </div>
       </div>
     </div>
     <!-- =============================================================== -->
@@ -234,10 +267,10 @@ WTFast card</a>
                 <div class="title">Online Payment</div>
                 <div class="box">
                     <div class="box-left">
-                        <label class="bt1"><input type="checkbox" hidden><span class="check"></span><p>Credit/Debit Card (VND)</p></label>
+                        <label class="bt1"><input type="radio" name="choose" hidden><span class="check"></span><p>Credit/Debit Card (VND)</p></label>
                         <img src="./img/Frame 314858.svg" alt="">
                     </div>
-                    <div class="box-right"> <label class="bt1"><input type="checkbox" hidden>
+                    <div class="box-right"> <label class="bt1"><input type="radio" name="choose" hidden>
                         <span class="check"></span><p>PayPal</p></label>
                         <img src="./img/Frame 314857.svg" alt=""></div>
                 </div>
@@ -247,28 +280,28 @@ WTFast card</a>
                 <div class="list-box">
                     <div class="box">
                     <div class="box-left">
-                        <label class="bt1"><input type="checkbox" hidden><span class="check"></span><p>DongA Bank</p></label>
+                        <label class="bt1"><input type="radio" name="choose-2" hidden><span class="check"></span><p>DongA Bank</p></label>
                         <img src="./img2/image 17.svg" alt="">
                     </div>
-                    <div class="box-right"> <label class="bt1"><input type="checkbox" hidden>
+                    <div class="box-right"> <label class="bt1"><input type="radio"  name="choose-2" hidden>
                         <span class="check"></span><p>Vietcombank</p></label>
                         <img src="./img2/image 18.svg" alt=""></div>
                 </div>
                 <div class="box">
                     <div class="box-left">
-                        <label class="bt1"><input type="checkbox" hidden><span class="check"></span><p>Vietcombank</p></label>
+                        <label class="bt1"><input type="radio"  name="choose-2" hidden><span class="check"></span><p>Vietcombank</p></label>
                         <img src="./img2/image 19.svg" alt="">
                     </div>
-                    <div class="box-right"> <label class="bt1"><input type="checkbox" hidden>
+                    <div class="box-right"> <label class="bt1"><input type="radio"  name="choose-2" hidden>
                         <span class="check"></span><p>BIDV bank</p></label>
                         <img src="./img2/image 20.svg" alt=""></div>
                 </div>
                 <div class="box">
                     <div class="box-left">
-                        <label class="bt1"><input type="checkbox" hidden><span class="check"></span><p>Vietinbank</p></label>
+                        <label class="bt1"><input type="radio"  name="choose-2" hidden><span class="check"></span><p>Vietinbank</p></label>
                         <img src="./img2/image 21.svg" alt="">
                     </div>
-                    <div class="box-right"> <label class="bt1"><input type="checkbox" hidden>
+                    <div class="box-right"> <label class="bt1"><input  name="choose-2" type="radio" hidden>
                         <span class="check"></span><p>Agribank</p></label>
                         <img src="./img2/image 22.svg" alt=""></div>
                 </div>
@@ -283,13 +316,13 @@ WTFast card</a>
                 <div class="list-box">
                 <div class="box">
                     <div class="box-left">
-                        <label class="bt1"><input type="checkbox" hidden><span class="check"></span><div class="text-info">
+                        <label class="bt1"><input type="radio" name="choose-3" hidden><span class="check"></span><div class="text-info">
                             <p class="name">MBbank</p>
                             <p class="text">Thanh toán tại quầy giao dịch</p>
                         </div></label>
                         <img src="./img2/image 17.svg" alt="">
                     </div>
-                    <div class="box-right"> <label class="bt1"><input type="checkbox" hidden>
+                    <div class="box-right"> <label class="bt1"><input type="radio" name="choose-3" hidden>
                         <span class="check"></span><div class="text-info">
                             <p class="name">Vietcombank</p>
                             <p class="text">Thanh toán tại quầy giao dịch</p>
@@ -298,13 +331,13 @@ WTFast card</a>
                 </div>
                 <div class="box">
                     <div class="box-left">
-                        <label class="bt1"><input type="checkbox" hidden><span class="check"></span><div class="text-info">
+                        <label class="bt1"><input type="radio" name="choose-3" hidden><span class="check"></span><div class="text-info">
                             <p class="name">DongA Bank</p>
                             <p class="text">Thanh toán tại quầy giao dịch</p>
                         </div></label>
                         <img src="./img2/image 19.svg" alt="">
                     </div>
-                    <div class="box-right"> <label class="bt1"><input type="checkbox" hidden>
+                    <div class="box-right"> <label class="bt1"><input type="radio" name="choose-3" hidden>
                         <span class="check"></span><div class="text-info">
                             <p class="name">BIDV bank</p>
                             <p class="text">Thanh toán tại quầy giao dịch</p>
@@ -313,13 +346,13 @@ WTFast card</a>
                 </div>
                 <div class="box">
                     <div class="box-left">
-                        <label class="bt1"><input type="checkbox" hidden><span class="check"></span><div class="text-info">
+                        <label class="bt1"><input type="radio" name="choose-3" hidden><span class="check"></span><div class="text-info">
                             <p class="name">Vietinbank</p>
                             <p class="text">Thanh toán tại quầy giao dịch</p>
                         </div></label>
                         <img src="./img2/image 21.svg" alt="">
                     </div>
-                    <div class="box-right"> <label class="bt1"><input type="checkbox" hidden>
+                    <div class="box-right"> <label class="bt1"><input type="radio" name="choose-3" hidden>
                         <span class="check"></span><div class="text-info">
                             <p class="name">Agribank</p>
                             <p class="text">Thanh toán tại quầy giao dịch</p>
@@ -398,7 +431,8 @@ WTFast card</a>
               </div>
             </div>
         </div>
-        <div class="info-pay"><h1>
+        <div class="info-pay">
+          <h1>
           THÔNG TIN THANH TOÁN
         </h1>
         <div class="box-pay">
@@ -494,10 +528,10 @@ WTFast card</a>
           </div>
           <div class="footer-list">
             <ul>
-              <li><a href="#"><img src="./icon/Group.svg" alt=""><span>Facebook</span></a></li>
-              <li><a href="#"><img src="./icon/Group 972.png" alt=""><span>LinkedIn</span></a></li>
-              <li><a href="#"><img src="./icon/Layer 2.svg" alt=""><span>Instagram</span></a></li>
-              <li><a href="#"><img src="./icon/Group 971.svg" alt=""><span>Zalo</span></a></li>
+              <li><a href="https://www.facebook.com" target="_blank"><img src="./icon/Group.svg" alt="img-face"><span>Facebook</span></a></li>
+              <li><a href="https://www.linkedin.com" target="_blank"><img src="./icon/Group 972.png" alt="img-link"><span>LinkedIn</span></a></li>
+              <li><a href="https://www.instagram.com" target="_blank"><img src="./icon/Layer 2.svg" alt="img-insta"><span>Instagram</span></a></li>
+              <li><a href="https://zalo.me/pc" target="_blank"><img src="./icon/Group 971.svg" alt="img-zalo"><span>Zalo</span></a></li>
             </ul>
           </div>
         </div>
@@ -523,5 +557,6 @@ WTFast card</a>
       <p class="footer-copy">© 2024 by NapThe. All Rights Reserved</p>
     </div>
      </div>
+</div>
   </body>
 </html>

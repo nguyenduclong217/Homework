@@ -10,14 +10,14 @@ body {
   font-size: 1.6rem;
   line-height: 1.5;
   font-size: 1.6rem;
-  width: 1440px;
   height: 900px;
   background: url(./img/b991d02362a616e99cd1c0e94dd17dc1b377951a.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  overflow: hidden;
+  /* overflow: hidden; */
   display: flex;
-  justify-content: center;
+  overscroll-behavior: none;
+
   align-items: center;
 }
 ul li {
@@ -28,22 +28,20 @@ a {
 }
 
 .auth-container {
-  width: 71%;
+  width: 1016px;
   height: 488px;
-  top: 230px;
-  left: 212px;
-  /* angle: 0 deg; */
+
+  margin: 0 auto;
 }
 .auth-container .auth-box {
   /* width: 1016px;
   height: 488px; */
-  top: 230px;
-  left: 212px;
   opacity: 1;
   border-radius: 45px;
   display: flex;
-  margin: auto auto;
+  /* margin: auto auto; */
   background: transparent;
+
   background: #e4828244;
   backdrop-filter: blur(22px);
 }
@@ -148,6 +146,11 @@ a {
   font-style: Regular;
   font-size: 1.2rem;
   background: #f2f2f2;
+  padding-right: 20px;
+  border: none;
+}
+.right-box .auth-form input:focus {
+  outline: none;
 }
 .right-box .auth-form .input-box {
   position: relative;

@@ -12,13 +12,14 @@
     />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
    
-    <title>Document</title>
+    <title>Home</title>
   </head>
   <body>
     <!-- header -->
-    <input type="checkbox" id="menu" >
+    <input type="checkbox" id="menu" hidden>
     <label class="overlay" for="menu"></label>
-    <div class="header">
+  <div class="page-home">
+          <div class="header">
       <div class="top">
         <div class="header-top">
           <div class="header-top-left"><p>Về chúng tôi</p></div>
@@ -28,8 +29,8 @@
              <i class="fa-solid fa-chevron-down"></i></div>
             <div class="lang"><span>ENG</span>
              <i class="fa-solid fa-chevron-down"></i></div>
-            <div class="acc"><img src="./icon/mingcute_user-4-line.svg" alt="">
-              <span>Tài khoản</span></div>
+            <a href="/f8-zoom-module-1/Account2/ac-tag1.html" class="acc"><img src="./icon/mingcute_user-4-line.svg" alt="">
+              <span>Tài khoản</span></a>
           </div>
           </div>
         </div>
@@ -37,9 +38,9 @@
       <div class="main">
         <div class="header-main">
           <div class="head">
-            <div class="header-logo">
-              <img src="./icon/Frame 314870.svg" alt="" />
-            </div>
+            <a href="#" class="header-logo">
+              <img src="./icon/Frame 314870.svg" alt="img" />
+            </a>
             <div class="header-search">
          
                <div class="voucher">
@@ -76,7 +77,6 @@
                   <span>Thẻ điện thoại</span>
                    <i class="fa-solid fa-chevron-down"></i>
                 </div>
-                <div class="overlay"></div>
                 <div class="box-hidden">
                   <div class="close">
                     <div class="list-select-main">
@@ -108,8 +108,7 @@
                           <a href="">IMo girf car</a>
                         </li>
                         <li>
-                          <a href="">
-WTFast card</a>
+                          <a href="">WTFast card</a>
                         </li>
                         <li>
                           <a href="">Nike Gift card</a>
@@ -226,7 +225,7 @@ WTFast card</a>
                 </div>
               </div> 
             </div>
-            <div class="header-hotline"><img src="./icon/Vector (5).svg" alt=""><span>Hotline: 19200 10800</span></div>
+            <a href="tel:19200 10800" class="header-hotline"><img src="./img2/Group 21828.svg" alt="phone-img" class="img4"><img src="./icon/Vector (5).svg" alt="" class="img3"><span>Hotline: 19200 10800</span></a>
           </div>
         </div>
       </div>
@@ -252,11 +251,11 @@ WTFast card</a>
                <i class="fa-solid fa-chevron-down"></i>
             </div>
             <div class="box">
-              <a class="title-small">Top-Up</a>
+              <a href="/f8-zoom-module-1/Naptien/nap-tien-tag1.html" class="title-small">Top-Up</a>
                <i class="fa-solid fa-chevron-down"></i>
             </div>
             <div class="box">
-              <a class="title-small">Contact us</a>
+              <a href="/f8-zoom-module-1/accoun/sign-up.html" class="title-small">Contact us</a>
                <i class="fa-solid fa-chevron-down"></i>
             </div>
           </div>
@@ -337,15 +336,15 @@ WTFast card</a>
     <!-- ================================================================== -->
     <div class="product-list">
       <div class="hint-card">
-      <input type="checkbox" id="btn1" hidden>
-      <label for="btn1" class="btn btn-hint">Hôm nay có gì</label>
-      <input type="checkbox" id="btn6" hidden>
+      <input type="radio" id="btn1" name="hint" checked hidden>
+      <label for="btn1" class="btn btn-hint" >Hôm nay có gì</label>
+      <input type="radio" id="btn6" name="hint" hidden>
       <label for="btn6" class="btn btn-hint">Gợi ý cho bạn</label>
-      <input type="checkbox" id="btn3" hidden>
+      <input type="radio" id="btn3" name="hint" hidden>
       <label for="btn3" class="btn btn-hint">Gợi ý cho bạn</label>
-      <input type="checkbox" id="btn4" hidden>
+      <input type="radio" id="btn4" name="hint" hidden>
       <label for="btn4" class="btn btn-hint">Gợi ý cho bạn</label>
-      <input type="checkbox" id="btn5" hidden>
+      <input type="radio" id="btn5" name="hint" hidden>
       <label for="btn5" class="btn btn-hint">Gợi ý cho bạn</label>
     </div>
     <div class="hint-card1">
@@ -372,9 +371,9 @@ WTFast card</a>
           <div class="product-card-price">120.000 ~ 134.000</div>
          <div class="product-card-btn">
             <input type="checkbox" id="box10" hidden>
-            <label for="box10" class="btn btn2">Mua ngay</label>
+            <label for="box10" class="btn btn2"><i class="fa-solid fa-cart-shopping"></i>Mua ngay</label>
             <div class="product-card-fav"><img src="./icon/mdi_heart-outline.svg" alt="icon"></div>
-            <div class="icon-buy"><img src="./icon/Group 21801.svg" alt="icon"></div>
+           
           </div>
         </div>
          <div class="product-card">
@@ -385,9 +384,9 @@ WTFast card</a>
           <div class="product-card-price">120.000 ~ 134.000</div>
          <div class="product-card-btn">
             <input type="checkbox" id="box9" hidden>
-            <label for="box9" class="btn btn2">Mua ngay</label>
+            <label for="box9" class="btn btn2"><i class="fa-solid fa-cart-shopping"></i>Mua ngay</label>
             <div class="product-card-fav"><img src="./icon/mdi_heart-outline.svg" alt="icon"></div>
-             <div class="icon-buy"><img src="./icon/Group 21801.svg" alt="icon"></div>
+             
           </div>
         </div>
          <div class="product-card">
@@ -398,9 +397,9 @@ WTFast card</a>
           <div class="product-card-price">120.000 ~ 134.000</div>
          <div class="product-card-btn">
             <input type="checkbox" id="box8" hidden>
-            <label for="box8" class="btn btn2">Mua ngay</label>
+            <label for="box8" class="btn btn2"><i class="fa-solid fa-cart-shopping"></i>Mua ngay</label>
             <div class="product-card-fav"><img src="./icon/mdi_heart-outline.svg" alt="icon"></div>
-             <div class="icon-buy"><img src="./icon/Group 21801.svg" alt="icon"></div>
+            
           </div>
         </div>
          <div class="product-card">
@@ -411,9 +410,9 @@ WTFast card</a>
           <div class="product-card-price">120.000 ~ 134.000</div>
           <div class="product-card-btn">
             <input type="checkbox" id="box7" hidden>
-            <label for="box7" class="btn btn2">Mua ngay</label>
+            <label for="box7" class="btn btn2"><i class="fa-solid fa-cart-shopping"></i>Mua ngay</label>
             <div class="product-card-fav"><img src="./icon/mdi_heart-outline.svg" alt="icon"></div>
-             <div class="icon-buy"><img src="./icon/Group 21801.svg" alt="icon"></div>
+            
           </div>
         </div>
          <div class="product-card">
@@ -424,9 +423,9 @@ WTFast card</a>
           <div class="product-card-price">120.000 ~ 134.000</div>
           <div class="product-card-btn">
             <input type="checkbox" id="box6" hidden>
-            <label for="box6" class="btn btn2">Mua ngay</label>
+            <label for="box6" class="btn btn2"><i class="fa-solid fa-cart-shopping"></i>Mua ngay</label>
             <div class="product-card-fav"><img src="./icon/mdi_heart-outline.svg" alt="icon"></div>
-             <div class="icon-buy"><img src="./icon/Group 21801.svg" alt="icon"></div>
+            
           </div>
         </div>
         <div class="product-card ">
@@ -437,9 +436,8 @@ WTFast card</a>
           <div class="product-card-price">120.000 ~ 134.000</div>
          <div class="product-card-btn">
             <input type="checkbox" id="box5" hidden>
-            <label for="box5" class="btn btn2">Mua ngay</label>
+            <label for="box5" class="btn btn2"><i class="fa-solid fa-cart-shopping"></i>Mua ngay</label>
             <div class="product-card-fav"><img src="./icon/mdi_heart-outline.svg" alt="icon"></div>
-             <div class="icon-buy"><img src="./icon/Group 21801.svg" alt="icon"></div>
           </div>
         </div>
       </div>
@@ -453,10 +451,10 @@ WTFast card</a>
           <div class="product-card-title">Target Gift Card 50$ (US)- Order</div>
           <div class="product-card-price">120.000 ~ 134.000</div>
          <div class="product-card-btn">
-            <input type="checkbox" id="box5" hidden>
-            <label for="box5" class="btn btn2">Mua ngay</label>
+            <input type="checkbox" id="box0" hidden>
+            <label for="box0" class="btn btn2"><i class="fa-solid fa-cart-shopping"></i>Mua ngay</label>
             <div class="product-card-fav"><img src="./icon/mdi_heart-outline.svg" alt="icon"></div>
-             <div class="icon-buy"><img src="./icon/Group 21801.svg" alt="icon"></div>
+             
           </div>
         </div>
          <div class="product-card">
@@ -467,9 +465,9 @@ WTFast card</a>
           <div class="product-card-price">120.000 ~ 134.000</div>
           <div class="product-card-btn">
             <input type="checkbox" id="box4" hidden>
-            <label for="box4" class="btn btn2">Mua ngay</label>
+            <label for="box4" class="btn btn2"><i class="fa-solid fa-cart-shopping"></i>Mua ngay</label>
             <div class="product-card-fav"><img src="./icon/mdi_heart-outline.svg" alt="icon"></div>
-             <div class="icon-buy"><img src="./icon/Group 21801.svg" alt="icon"></div>
+         
           </div>
         </div>
          <div class="product-card">
@@ -480,9 +478,9 @@ WTFast card</a>
           <div class="product-card-price">120.000 ~ 134.000</div>
          <div class="product-card-btn">
             <input type="checkbox" id="box2" hidden>
-            <label for="box2" class="btn btn2">Mua ngay</label>
+            <label for="box2" class="btn btn2"><i class="fa-solid fa-cart-shopping"></i>Mua ngay</label>
             <div class="product-card-fav"><img src="./icon/mdi_heart-outline.svg" alt="icon"></div>
-             <div class="icon-buy"><img src="./icon/Group 21801.svg" alt="icon"></div>
+           
           </div>
         </div>
          <div class="product-card">
@@ -493,9 +491,8 @@ WTFast card</a>
           <div class="product-card-price">120.000 ~ 134.000</div>
           <div class="product-card-btn">
             <input type="checkbox" id="box1" hidden>
-            <label for="box1" class="btn btn2">Mua ngay</label>
+            <label for="box1" class="btn btn2"><i class="fa-solid fa-cart-shopping"></i>Mua ngay</label>
             <div class="product-card-fav"><img src="./icon/mdi_heart-outline.svg" alt="icon"></div>
-            <div class="icon-buy"><img src="./icon/Group 21801.svg" alt="icon"></div>
           </div>
         </div>
          <div class="product-card">
@@ -506,14 +503,13 @@ WTFast card</a>
           <div class="product-card-price">120.000 ~ 134.000</div>
           <div class="product-card-btn">
             <input type="checkbox" id="box" hidden>
-            <label for="box" class="btn btn2">Mua ngay</label>
+            <label for="box" class="btn btn2"><i class="fa-solid fa-cart-shopping"></i>Mua ngay</label>
             <div class="product-card-fav"><img src="./icon/mdi_heart-outline.svg" alt="icon"></div>
-            <div class="icon-buy"><img src="./icon/Group 21801.svg" alt="icon"></div>
           </div>
         </div>
       </div>
     </div>
-    <div class="all"><a href="" class="btn btn2">Xem tất cả</a></div>
+    <div class="all seem"><a href="/f8-zoom-module-1/Collection/collection.html" class="btn btn2">Xem tất cả</a></div>
     </div>
    <div class="background-three">
     <div class="background-img">
@@ -566,9 +562,9 @@ WTFast card</a>
           <div class="product-card-price">120.000 ~ 134.000</div>
          <div class="product-card-btn">
             <input type="checkbox" id="box80" hidden>
-            <label for="box80" class="btn btn2">Mua ngay</label>
+            <label for="box80" class="btn btn2"><i class="fa-solid fa-cart-shopping"></i>Mua ngay</label>
             <div class="product-card-fav"><img src="./icon/mdi_heart-outline.svg" alt="icon"></div>
-             <div class="icon-buy"><img src="./icon/Group 21801.svg" alt="icon"></div>
+            
           </div>
         </div>
          <div class="product-card">
@@ -579,9 +575,9 @@ WTFast card</a>
           <div class="product-card-price">120.000 ~ 134.000</div>
           <div class="product-card-btn">
             <input type="checkbox" id="box81" hidden>
-            <label for="box81" class="btn btn2">Mua ngay</label>
+            <label for="box81" class="btn btn2"><i class="fa-solid fa-cart-shopping"></i>Mua ngay</label>
             <div class="product-card-fav"><img src="./icon/mdi_heart-outline.svg" alt="icon"></div>
-             <div class="icon-buy"><img src="./icon/Group 21801.svg" alt="icon"></div>
+      
           </div>
         </div>
          <div class="product-card">
@@ -592,9 +588,9 @@ WTFast card</a>
           <div class="product-card-price">120.000 ~ 134.000</div>
          <div class="product-card-btn">
             <input type="checkbox" id="box82" hidden>
-            <label for="box82" class="btn btn2">Mua ngay</label>
+            <label for="box82" class="btn btn2"><i class="fa-solid fa-cart-shopping"></i>Mua ngay</label>
             <div class="product-card-fav"><img src="./icon/mdi_heart-outline.svg" alt="icon"></div>
-             <div class="icon-buy"><img src="./icon/Group 21801.svg" alt="icon"></div>
+     
           </div>
         </div>
          <div class="product-card">
@@ -605,9 +601,9 @@ WTFast card</a>
           <div class="product-card-price">120.000 ~ 134.000</div>
           <div class="product-card-btn">
             <input type="checkbox" id="box84" hidden>
-            <label for="box84" class="btn btn2">Mua ngay</label>
+            <label for="box84" class="btn btn2"><i class="fa-solid fa-cart-shopping"></i>Mua ngay</label>
             <div class="product-card-fav"><img src="./icon/mdi_heart-outline.svg" alt="icon"></div>
-            <div class="icon-buy"><img src="./icon/Group 21801.svg" alt="icon"></div>
+
           </div>
         </div>
          <div class="product-card">
@@ -618,9 +614,9 @@ WTFast card</a>
           <div class="product-card-price">120.000 ~ 134.000</div>
           <div class="product-card-btn">
             <input type="checkbox" id="box85" hidden>
-            <label for="box85"class="btn btn2">Mua ngay</label>
+            <label for="box85"class="btn btn2"><i class="fa-solid fa-cart-shopping"></i>Mua ngay</label>
             <div class="product-card-fav"><img src="./icon/mdi_heart-outline.svg" alt="icon"></div>
-            <div class="icon-buy"><img src="./icon/Group 21801.svg" alt="icon"></div>
+     
           </div>
         </div>
          <div class="product-card">
@@ -631,9 +627,9 @@ WTFast card</a>
           <div class="product-card-price">120.000 ~ 134.000</div>
           <div class="product-card-btn">
             <input type="checkbox" id="box83" hidden>
-            <label for="box83" class="btn btn2">Mua ngay</label>
+            <label for="box83" class="btn btn2"><i class="fa-solid fa-cart-shopping"></i>Mua ngay</label>
             <div class="product-card-fav"><img src="./icon/mdi_heart-outline.svg" alt="icon"></div>
-            <div class="icon-buy"><img src="./icon/Group 21801.svg" alt="icon"></div>
+     
           </div>
         </div>
       </div>
@@ -695,9 +691,9 @@ WTFast card</a>
           <div class="product-card-price">120.000 ~ 134.000</div>
          <div class="product-card-btn">
             <input type="checkbox" id="box56" hidden>
-            <label for="box56" class="btn btn2">Mua ngay</label>
+            <label for="box56" class="btn btn2"><i class="fa-solid fa-cart-shopping"></i>Mua ngay</label>
             <div class="product-card-fav"><img src="./icon/mdi_heart-outline.svg" alt="icon"></div>
-            <div class="icon-buy"><img src="./icon/Group 21801.svg" alt="icon"></div>
+  
           </div>
         </div>
          <div class="product-card">
@@ -708,9 +704,9 @@ WTFast card</a>
           <div class="product-card-price">120.000 ~ 134.000</div>
           <div class="product-card-btn">
             <input type="checkbox" id="box57" hidden>
-            <label for="box57" class="btn btn2">Mua ngay</label>
+            <label for="box57" class="btn btn2"><i class="fa-solid fa-cart-shopping"></i>Mua ngay</label>
             <div class="product-card-fav"><img src="./icon/mdi_heart-outline.svg" alt="icon"></div>
-             <div class="icon-buy"><img src="./icon/Group 21801.svg" alt="icon"></div>
+ 
           </div>
         </div>
          <div class="product-card">
@@ -721,9 +717,9 @@ WTFast card</a>
           <div class="product-card-price">120.000 ~ 134.000</div>
          <div class="product-card-btn">
             <input type="checkbox" id="box58" hidden>
-            <label for="box58" class="btn btn2">Mua ngay</label>
+            <label for="box58" class="btn btn2"><i class="fa-solid fa-cart-shopping"></i>Mua ngay</label>
             <div class="product-card-fav"><img src="./icon/mdi_heart-outline.svg" alt="icon"></div>
-             <div class="icon-buy"><img src="./icon/Group 21801.svg" alt="icon"></div>
+  
           </div>
         </div>
          <div class="product-card">
@@ -734,9 +730,9 @@ WTFast card</a>
           <div class="product-card-price">120.000 ~ 134.000</div>
          <div class="product-card-btn">
             <input type="checkbox" id="box59" hidden>
-            <label for="box59" class="btn btn2">Mua ngay</label>
+            <label for="box59" class="btn btn2"><i class="fa-solid fa-cart-shopping"></i>Mua ngay</label>
             <div class="product-card-fav"><img src="./icon/mdi_heart-outline.svg" alt="icon"></div>
-             <div class="icon-buy"><img src="./icon/Group 21801.svg" alt="icon"></div>
+    
           </div>
         </div>
          <div class="product-card">
@@ -747,9 +743,9 @@ WTFast card</a>
           <div class="product-card-price">120.000 ~ 134.000</div>
           <div class="product-card-btn">
             <input type="checkbox" id="box60" hidden>
-            <label for="box60" class="btn btn2">Mua ngay</label>
+            <label for="box60" class="btn btn2"><i class="fa-solid fa-cart-shopping"></i>Mua ngay</label>
             <div class="product-card-fav"><img src="./icon/mdi_heart-outline.svg" alt="icon"></div>
-             <div class="icon-buy"><img src="./icon/Group 21801.svg" alt="icon"></div>
+     
           </div>
         </div>
          <div class="product-card">
@@ -760,14 +756,14 @@ WTFast card</a>
           <div class="product-card-price">120.000 ~ 134.000</div>
           <div class="product-card-btn">
             <input type="checkbox" id="box66" hidden>
-            <label for="box66" class="btn btn2">Mua ngay</label>
+            <label for="box66" class="btn btn2"><i class="fa-solid fa-cart-shopping"></i>Mua ngay</label>
             <div class="product-card-fav"><img src="./icon/mdi_heart-outline.svg" alt="icon"></div>
-             <div class="icon-buy"><img src="./icon/Group 21801.svg" alt="icon"></div>
+
           </div>
         </div>
       </div>
         </div>
-        <div class=" btn box-all">View All
+        <div class=" btn box-all" style="display: none;">View All
         </div>
         <div class="hot-deal">Hot Deals Today</div>
 
@@ -783,9 +779,9 @@ WTFast card</a>
           <div class="product-card-price">120.000 ~ 134.000</div>
          <div class="product-card-btn">
             <input type="checkbox" id="box11" hidden>
-            <label for="box11" class="btn btn2">Mua ngay</label>
+            <label for="box11" class="btn btn2"><i class="fa-solid fa-cart-shopping"></i>Mua ngay</label>
             <div class="product-card-fav"><img src="./icon/mdi_heart-outline.svg" alt="icon"></div>
-            <div class="icon-buy"><img src="./icon/Group 21801.svg" alt="icon"></div>
+
           </div>
         </div>
          <div class="product-card">
@@ -796,9 +792,9 @@ WTFast card</a>
           <div class="product-card-price">120.000 ~ 134.000</div>
          <div class="product-card-btn">
             <input type="checkbox" id="box12" hidden>
-            <label for="box12" class="btn btn2">Mua ngay</label>
+            <label for="box12" class="btn btn2"><i class="fa-solid fa-cart-shopping"></i>Mua ngay</label>
             <div class="product-card-fav"><img src="./icon/mdi_heart-outline.svg" alt="icon"></div>
-            <div class="icon-buy"><img src="./icon/Group 21801.svg" alt="icon"></div>
+    
           </div>
         </div>
          <div class="product-card">
@@ -809,9 +805,9 @@ WTFast card</a>
           <div class="product-card-price">120.000 ~ 134.000</div>
          <div class="product-card-btn">
             <input type="checkbox" id="box13" hidden>
-            <label for="box13" class="btn btn2">Mua ngay</label>
+            <label for="box13" class="btn btn2"><i class="fa-solid fa-cart-shopping"></i>Mua ngay</label>
             <div class="product-card-fav"><img src="./icon/mdi_heart-outline.svg" alt="icon"></div>
-            <div class="icon-buy"><img src="./icon/Group 21801.svg" alt="icon"></div>
+           
           </div>
         </div>
          <div class="product-card">
@@ -822,9 +818,9 @@ WTFast card</a>
           <div class="product-card-price">120.000 ~ 134.000</div>
           <div class="product-card-btn">
             <input type="checkbox" id="box14" hidden>
-            <label for="box14" class="btn btn2">Mua ngay</label>
+            <label for="box14" class="btn btn2"><i class="fa-solid fa-cart-shopping"></i>Mua ngay</label>
             <div class="product-card-fav"><img src="./icon/mdi_heart-outline.svg" alt="icon"></div>
-            <div class="icon-buy"><img src="./icon/Group 21801.svg" alt="icon"></div>
+         
           </div>
         </div>
          <div class="product-card">
@@ -835,9 +831,9 @@ WTFast card</a>
           <div class="product-card-price">120.000 ~ 134.000</div>
           <div class="product-card-btn">
             <input type="checkbox" id="box15" hidden>
-            <label for="box15" class="btn btn2">Mua ngay</label>
+            <label for="box15" class="btn btn2"><i class="fa-solid fa-cart-shopping"></i>Mua ngay</label>
             <div class="product-card-fav"><img src="./icon/mdi_heart-outline.svg" alt="icon"></div>
-            <div class="icon-buy"><img src="./icon/Group 21801.svg" alt="icon"></div>
+            
           </div>
         </div>
       </div>
@@ -876,9 +872,9 @@ WTFast card</a>
           <div class="product-card-price">120.000 ~ 134.000</div>
          <div class="product-card-btn">
             <input type="checkbox" id="box16" hidden>
-            <label for="box16" class="btn btn2">Mua ngay</label>
+            <label for="box16" class="btn btn2"><i class="fa-solid fa-cart-shopping"></i>Mua ngay</label>
             <div class="product-card-fav"><img src="./icon/mdi_heart-outline.svg" alt="icon"></div>
-            <div class="icon-buy"><img src="./icon/Group 21801.svg" alt="icon"></div>
+
           </div>
         </div>
          <div class="product-card">
@@ -889,9 +885,9 @@ WTFast card</a>
           <div class="product-card-price">120.000 ~ 134.000</div>
          <div class="product-card-btn">
             <input type="checkbox" id="box17" hidden>
-            <label for="box17" class="btn btn2">Mua ngay</label>
+            <label for="box17" class="btn btn2"><i class="fa-solid fa-cart-shopping"></i>Mua ngay</label>
             <div class="product-card-fav"><img src="./icon/mdi_heart-outline.svg" alt="icon"></div>
-            <div class="icon-buy"><img src="./icon/Group 21801.svg" alt="icon"></div>
+
           </div>
         </div>
          <div class="product-card">
@@ -902,9 +898,9 @@ WTFast card</a>
           <div class="product-card-price">120.000 ~ 134.000</div>
          <div class="product-card-btn">
             <input type="checkbox" id="box18" hidden>
-            <label for="box18" class="btn btn2">Mua ngay</label>
+            <label for="box18" class="btn btn2"><i class="fa-solid fa-cart-shopping"></i>Mua ngay</label>
             <div class="product-card-fav"><img src="./icon/mdi_heart-outline.svg" alt="icon"></div>
-            <div class="icon-buy"><img src="./icon/Group 21801.svg" alt="icon"></div>
+     
           </div>
         </div>
         </div>
@@ -929,9 +925,8 @@ WTFast card</a>
           <div class="product-card-price">120.000 ~ 134.000</div>
          <div class="product-card-btn">
             <input type="checkbox" id="box70" hidden>
-            <label for="box70" class="btn btn2">Mua ngay</label>
+            <label for="box70" class="btn btn2"><i class="fa-solid fa-cart-shopping"></i>Mua ngay</label>
             <div class="product-card-fav"><img src="./icon/mdi_heart-outline.svg" alt="icon"></div>
-            <div class="icon-buy"><img src="./icon/Group 21801.svg" alt="icon"></div>
           </div>
         </div>
          <div class="product-card">
@@ -942,9 +937,8 @@ WTFast card</a>
           <div class="product-card-price">120.000 ~ 134.000</div>
           <div class="product-card-btn">
             <input type="checkbox" id="box71" hidden>
-            <label for="box71" class="btn btn2">Mua ngay</label>
+            <label for="box71" class="btn btn2"><i class="fa-solid fa-cart-shopping"></i>Mua ngay</label>
             <div class="product-card-fav"><img src="./icon/mdi_heart-outline.svg" alt="icon"></div>
-             <div class="icon-buy"><img src="./icon/Group 21801.svg" alt="icon"></div>
           </div>
         </div>
          <div class="product-card">
@@ -955,9 +949,9 @@ WTFast card</a>
           <div class="product-card-price">120.000 ~ 134.000</div>
          <div class="product-card-btn">
             <input type="checkbox" id="box72" hidden>
-            <label for="box72" class="btn btn2">Mua ngay</label>
+            <label for="box72" class="btn btn2"><i class="fa-solid fa-cart-shopping"></i>Mua ngay</label>
             <div class="product-card-fav"><img src="./icon/mdi_heart-outline.svg" alt="icon"></div>
-             <div class="icon-buy"><img src="./icon/Group 21801.svg" alt="icon"></div>
+         
           </div>
         </div>
          <div class="product-card">
@@ -968,9 +962,9 @@ WTFast card</a>
           <div class="product-card-price">120.000 ~ 134.000</div>
          <div class="product-card-btn">
             <input type="checkbox" id="box73" hidden>
-            <label for="box73" class="btn btn2">Mua ngay</label>
+            <label for="box73" class="btn btn2"><i class="fa-solid fa-cart-shopping"></i>Mua ngay</label>
             <div class="product-card-fav"><img src="./icon/mdi_heart-outline.svg" alt="icon"></div>
-             <div class="icon-buy"><img src="./icon/Group 21801.svg" alt="icon"></div>
+        
           </div>
         </div>
          <div class="product-card">
@@ -981,9 +975,9 @@ WTFast card</a>
           <div class="product-card-price">120.000 ~ 134.000</div>
           <div class="product-card-btn">
             <input type="checkbox" id="box74" hidden>
-            <label for="box74" class="btn btn2">Mua ngay</label>
+            <label for="box74" class="btn btn2"><i class="fa-solid fa-cart-shopping"></i>Mua ngay</label>
             <div class="product-card-fav"><img src="./icon/mdi_heart-outline.svg" alt="icon"></div>
-             <div class="icon-buy"><img src="./icon/Group 21801.svg" alt="icon"></div>
+         
           </div>
         </div>
          <div class="product-card">
@@ -994,9 +988,9 @@ WTFast card</a>
           <div class="product-card-price">120.000 ~ 134.000</div>
           <div class="product-card-btn">
             <input type="checkbox" id="box75" hidden>
-            <label for="box75" class="btn btn2">Mua ngay</label>
+            <label for="box75" class="btn btn2"><i class="fa-solid fa-cart-shopping"></i>Mua ngay</label>
             <div class="product-card-fav"><img src="./icon/mdi_heart-outline.svg" alt="icon"></div>
-             <div class="icon-buy"><img src="./icon/Group 21801.svg" alt="icon"></div>
+            
           </div>
         </div>
       </div>
@@ -1025,9 +1019,8 @@ WTFast card</a>
           <div class="product-card-price">120.000 ~ 134.000</div>
          <div class="product-card-btn">
             <input type="checkbox" id="box22" hidden>
-            <label for="box22" class="btn btn2">Mua ngay</label>
+            <label for="box22" class="btn btn2"><i class="fa-solid fa-cart-shopping"></i>Mua ngay</label>
             <div class="product-card-fav"><img src="./icon/mdi_heart-outline.svg" alt="icon"></div>
-            <div class="icon-buy"><img src="./icon/Group 21801.svg" alt="icon"></div>
           </div>
         </div>
          <div class="product-card">
@@ -1038,9 +1031,9 @@ WTFast card</a>
           <div class="product-card-price">120.000 ~ 134.000</div>
          <div class="product-card-btn">
             <input type="checkbox" id="box23" hidden>
-            <label for="box23" class="btn btn2">Mua ngay</label>
+            <label for="box23" class="btn btn2"><i class="fa-solid fa-cart-shopping"></i>Mua ngay</label>
             <div class="product-card-fav"><img src="./icon/mdi_heart-outline.svg" alt="icon"></div>
-            <div class="icon-buy"><img src="./icon/Group 21801.svg" alt="icon"></div>
+
           </div>
         </div>
          <div class="product-card">
@@ -1051,9 +1044,9 @@ WTFast card</a>
           <div class="product-card-price">120.000 ~ 134.000</div>
          <div class="product-card-btn">
             <input type="checkbox" id="box24" hidden>
-            <label for="box24" class="btn btn2">Mua ngay</label>
+            <label for="box24" class="btn btn2"><i class="fa-solid fa-cart-shopping"></i>Mua ngay</label>
             <div class="product-card-fav"><img src="./icon/mdi_heart-outline.svg" alt="icon"></div>
-            <div class="icon-buy"><img src="./icon/Group 21801.svg" alt="icon"></div>
+
           </div>
         </div>
          <div class="product-card">
@@ -1064,9 +1057,9 @@ WTFast card</a>
           <div class="product-card-price">120.000 ~ 134.000</div>
           <div class="product-card-btn">
             <input type="checkbox" id="box20" hidden>
-            <label for="box20" class="btn btn2">Mua ngay</label>
+            <label for="box20" class="btn btn2"><i class="fa-solid fa-cart-shopping"></i>Mua ngay</label>
             <div class="product-card-fav"><img src="./icon/mdi_heart-outline.svg" alt="icon"></div>
-            <div class="icon-buy"><img src="./icon/Group 21801.svg" alt="icon"></div>
+       
           </div>
         </div>
          <div class="product-card">
@@ -1077,9 +1070,9 @@ WTFast card</a>
           <div class="product-card-price">120.000 ~ 134.000</div>
           <div class="product-card-btn">
             <input type="checkbox" id="box21" hidden>
-            <label for="box21" class="btn btn2">Mua ngay</label>
+            <label for="box21" class="btn btn2"><i class="fa-solid fa-cart-shopping"></i>Mua ngay</label>
             <div class="product-card-fav"><img src="./icon/mdi_heart-outline.svg" alt="icon"></div>
-            <div class="icon-buy"><img src="./icon/Group 21801.svg" alt="icon"></div>
+     
           </div>
         </div>
       </div>
@@ -1406,10 +1399,10 @@ WTFast card</a>
           </div>
           <div class="footer-list">
             <ul>
-              <li><a href="#"><img src="./icon/Group.svg" alt=""><span>Facebook</span></a></li>
-              <li><a href="#"><img src="./icon/Group 972.png" alt=""><span>LinkedIn</span></a></li>
-              <li><a href="#"><img src="./icon/Layer 2.svg" alt=""><span>Instagram</span></a></li>
-              <li><a href="#"><img src="./icon/Group 971.svg" alt=""><span>Zalo</span></a></li>
+              <li><a href="https://www.facebook.com" target="_blank"><img src="./icon/Group.svg" alt="img-face"><span>Facebook</span></a></li>
+              <li><a href="https://www.linkedin.com" target="_blank"><img src="./icon/Group 972.png" alt="img-link"><span>LinkedIn</span></a></li>
+              <li><a href="https://www.instagram.com" target="_blank"><img src="./icon/Layer 2.svg" alt="img-insta"><span>Instagram</span></a></li>
+              <li><a href="https://zalo.me/pc" target="_blank"><img src="./icon/Group 971.svg" alt="img-zalo"><span>Zalo</span></a></li>
             </ul>
           </div>
         </div>
@@ -1434,6 +1427,7 @@ WTFast card</a>
       </div>
       <p class="footer-copy">© 2024 by NapThe. All Rights Reserved</p>
       </div>
+    </div>
     </div>
   </body>
 </html>

@@ -7,7 +7,8 @@ html {
   font-size: 10px;
 }
 body {
-  width: 1400px;
+  /* width: 1400px; */
+  overscroll-behavior: none;
 }
 input {
   border: none;
@@ -41,14 +42,30 @@ title,
 .title2,
 .product4,
 .products-category .text,
-.btn.btn-all,
-.imaginex2 .text {
+.btn-all,
+.imaginex2 .text,
+.img4 {
   display: none;
+}
+.page-home {
+  padding-top: 20px;
+  background-color: rgb(255, 251, 244);
+  width: 1440px;
+  margin: 0 auto;
 }
 
 /* =================== */
 ul li {
   list-style: none;
+}
+
+.header {
+  position: fixed;
+  z-index: 994;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  /* width: 100%; */
 }
 .header .header-top {
   width: 1200px;
@@ -57,6 +74,9 @@ ul li {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+.header-hotline {
+  color: black;
 }
 .btn {
   display: inline-block;
@@ -76,9 +96,20 @@ ul li {
   display: none;
 }
 .top {
-  width: 1400px;
+  /* width: 100%; */
+  width: 1440px;
   height: 39px;
+  margin: 0 auto;
   background: #ed5a25;
+}
+.main {
+  width: 1440px;
+  margin: 0 auto;
+  /* background: #ed5a25; */
+}
+.text-list {
+  width: 1440px;
+  margin: 0 auto;
 }
 .header-top-left span {
   font-family: Quicksand;
@@ -96,6 +127,7 @@ ul li {
   justify-content: space-between;
   width: 1200px;
   margin: 0 auto;
+  align-items: center;
 }
 
 .header .header-top-right .list-info {
@@ -220,7 +252,7 @@ ul li {
 
 .list-voucher a:hover {
   background: #ffebe0;
-  border-radius: 4px;
+  /* border-radius: 4px; */
 }
 
 .voucher:hover .list-voucher {
@@ -236,6 +268,12 @@ ul li {
   border-radius: 0 12px 12px 0;
   padding-left: 10px;
   border: 1px solid #fff4f1;
+  outline: none;
+  padding-left: 15px;
+  padding-right: 34px;
+}
+.header-main .header-search .header-search-input:focus {
+  border: 1px solid #ed5a25;
 }
 .header-main .header-search img {
   position: absolute;
@@ -246,6 +284,7 @@ ul li {
   height: 54px;
   display: flex;
   align-items: center;
+  box-shadow: 0 3px 3px #d1cdcd;
 }
 
 /* =============nav======== */
@@ -271,7 +310,7 @@ ul li {
   position: absolute;
   width: 1200px;
   display: none;
-  background: blanchedalmond;
+  background: rgba(255, 255, 255, 1);
   top: 33px;
   left: -86px;
   z-index: 9999;
@@ -291,12 +330,19 @@ ul li {
   font-weight: 500;
   font-style: Medium;
   font-size: 1.6rem;
-  color: #ed5a25;
+  /* color: #ed5a25; */
   display: block;
   height: 35px;
   display: flex;
   align-items: center;
   transition: 0.3s;
+  color: rgba(50, 50, 50, 1);
+}
+.text-list .list .list-select-main .choose:hover a {
+  color: #ed5a25;
+}
+.text-list .list .list-select-main .choose:hover i {
+  color: #ed5a25;
 }
 .text-list .list .list-select-main .choose i {
   transform: rotate(-90deg);
@@ -304,7 +350,7 @@ ul li {
 .text-list .list .list-select-main .choose:nth-child(n + 2) {
   margin-top: 23px;
 }
-.header .list .header-menu-item:hover .card span {
+.main .header-main .list-voucher .box a:hover {
   color: #ed5a25;
 }
 
@@ -316,6 +362,9 @@ ul li {
 .header-menu-item .card i {
   font-size: 1.3rem;
 }
+.header .list .header-menu-item:hover .card span {
+  color: #ed5a25;
+}
 .list .box-hidden .box-list {
   display: flex;
   width: 640px;
@@ -325,8 +374,13 @@ ul li {
   font-weight: 500;
   font-style: Medium;
   font-size: 1.4rem;
-  color: chocolate;
+  /* color: chocolate; */
   line-height: 26px;
+  color: rgba(50, 50, 50, 1);
+}
+.list .box-hidden .box-list .box1 a:hover {
+  color: chocolate;
+  text-decoration: underline;
 }
 .list .box-hidden .box-list .box1 li {
   width: 150px;
@@ -355,9 +409,8 @@ ul li {
   pointer-events: none;
   display: none;
   position: fixed;
-  inset: 30% 0 0 0;
+  inset: 22% 0 0 0;
   background: rgba(0, 0, 21, 0.713);
-
   z-index: 0;
 }
 
@@ -385,9 +438,11 @@ ul li {
   height: 151px;
   border-radius: 10px;
   display: none;
-  background: rgba(255, 240, 236, 1);
+  background: rgba(255, 255, 255, 1);
   z-index: 3;
   top: 33px;
+  border: 1px solid rgba(255, 240, 236, 1);
+  box-shadow: 0 0 4px rgb(240, 218, 212);
 }
 .napgame .card i {
   font-size: 1.3rem;
@@ -412,10 +467,13 @@ ul li {
   font-weight: 500;
   font-style: Medium;
   font-size: 1.4rem;
-  color: chocolate;
+  color: rgba(50, 50, 50, 1);
   line-height: 26px;
   display: flex;
   margin-left: 8px;
+}
+.text-list .napgame .box-hidden a:hover {
+  color: #ed5a25;
 }
 .napgame .card {
   cursor: pointer;
@@ -482,7 +540,7 @@ ul li {
   width: 1200px;
   height: 426px;
   background-color: #ffdbce;
-  margin: 12px auto;
+  margin: 188px auto 12px;
   border-radius: 40px;
   position: relative;
   overflow: hidden;
@@ -550,6 +608,9 @@ ul li {
   justify-content: center;
   align-items: center;
   margin: 0 auto;
+}
+.features .feature-item .feature-item__icon:hover {
+  background-color: rgb(236, 232, 231);
 }
 
 /* ==================================================== */
@@ -704,6 +765,12 @@ ul li {
   margin-left: 19px;
   position: relative;
 }
+.product-card .btn2:hover {
+  background-color: #e0c5bc;
+}
+.product-card .btn2 i {
+  margin-right: 8px;
+}
 .product-card .icon-buy {
   position: absolute;
   bottom: 30px;
@@ -723,7 +790,10 @@ ul li {
 .product-card input:checked ~ .product-card-fav img {
   display: none;
 }
-
+.product .product-card:hover {
+  border: 1px solid #ed5a25;
+  box-shadow: 0 0 3px #ed5a25;
+}
 .product-card .product-card-fav img {
   width: 22px;
   height: 22px;
@@ -736,6 +806,18 @@ ul li {
   font-size: 22px;
   padding: 5px;
   display: block;
+}
+.products-hot .block-product .product-card:hover {
+  box-shadow: 0 0 3px #ed5a25;
+  border: 1px solid #ed5a25;
+}
+.seem {
+  width: unset;
+  width: 160px;
+  margin: 0 auto;
+}
+.seem:hover a {
+  background-color: #e0c5bc;
 }
 .product-list .all {
   margin-top: 53px;
@@ -1133,6 +1215,7 @@ ul li {
 .products-new .product-card {
   position: relative;
   border: 1px solid rgba(242, 242, 242, 1);
+  border-radius: 20px;
 }
 .products-new .product-card .product-card-fav img {
   position: absolute;
@@ -1214,6 +1297,14 @@ ul li {
 }
 .products-group .product-item {
   display: flex;
+  border: 1px solid transparent;
+  border-radius: 12px;
+  cursor: pointer;
+}
+.products-group .product-item:hover {
+  border: 1px solid #e86b3e;
+  background-color: #f7f4f3;
+  box-shadow: 0 0 2px #e86b3e;
 }
 .products-info .products-name {
   font-family: Poppins;

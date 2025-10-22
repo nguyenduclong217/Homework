@@ -7,20 +7,42 @@ html {
   font-size: 10px;
 }
 body {
-  width: 1q00px;
+  /* width: 1400px; */
+  overscroll-behavior: none;
 }
 input {
   border: none;
 }
 a {
   text-decoration: none;
-  /* color: black; */
   z-index: 5;
 }
+/* ====================================== */
+.square,
+.nav2,
+.home-menu,
+.img4 {
+  display: none;
+}
+/* ======================================= */
 /* .product-card:hover {
   border: 1px solid rgba(237, 90, 37, 1);
 } */
-
+.page-home {
+  padding-top: 20px;
+  background-color: rgb(253, 253, 253);
+  width: 1440px;
+  margin: 0 auto;
+  margin-top: 160px;
+}
+.header {
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  /* width: 100%; */
+}
 ul li {
   list-style: none;
 }
@@ -47,15 +69,29 @@ ul li {
   cursor: pointer;
 }
 .top {
-  width: 100%;
+  /* width: 100%; */
+  width: 1440px;
   height: 39px;
+  margin: 0 auto;
   background: #ed5a25;
+}
+.main {
+  width: 1440px;
+  margin: 0 auto;
+  /* background: #ed5a25; */
+}
+.text-list {
+  width: 1440px;
+  margin: 0 auto;
 }
 .header-top-left span {
   font-family: Quicksand;
   font-weight: 500;
   font-style: Medium;
   font-size: 1.2rem;
+}
+.header-nav {
+  box-shadow: 0 3px 5px #c8c1c1;
 }
 .header-top-left,
 .header-top-right {
@@ -242,7 +278,7 @@ ul li {
   position: absolute;
   width: 1200px;
   display: none;
-  background: blanchedalmond;
+  background: rgba(255, 255, 255, 1);
   top: 33px;
   left: -86px;
   z-index: 9999;
@@ -262,12 +298,15 @@ ul li {
   font-weight: 500;
   font-style: Medium;
   font-size: 1.6rem;
-  color: #ed5a25;
+  color: rgba(50, 50, 50, 1);
   display: block;
   height: 35px;
   display: flex;
   align-items: center;
   transition: 0.3s;
+}
+.text-list .list .list-select-main .choose:hover a {
+  color: #de4108;
 }
 .text-list .list .list-select-main .choose i {
   transform: rotate(-90deg);
@@ -278,6 +317,7 @@ ul li {
 .header .list .header-menu-item:hover .card span {
   color: #ed5a25;
 }
+/* .header .list .header-menu-item:hover .card span  */
 
 .header .list .header-menu-item:hover .box-hidden,
 .header .list .header-menu-item:hover .overlay {
@@ -296,8 +336,12 @@ ul li {
   font-weight: 500;
   font-style: Medium;
   font-size: 1.4rem;
-  color: chocolate;
+  color: rgba(50, 50, 50, 1);
   line-height: 26px;
+}
+.list .box-hidden .box-list .box1 a:hover {
+  color: #de4108;
+  text-decoration: underline;
 }
 .list .box-hidden .box-list .box1 li {
   width: 150px;
@@ -356,9 +400,10 @@ ul li {
   height: 151px;
   border-radius: 10px;
   display: none;
-  background: rgba(255, 240, 236, 1);
+  background: rgba(255, 255, 255, 1);
   z-index: 3;
   top: 33px;
+  box-shadow: 0 0 4px rgba(255, 240, 236, 1);
 }
 .napgame .card i {
   font-size: 1.3rem;
@@ -383,10 +428,13 @@ ul li {
   font-weight: 500;
   font-style: Medium;
   font-size: 1.4rem;
-  color: chocolate;
+  color: rgba(50, 50, 50, 1);
   line-height: 26px;
   display: flex;
   margin-left: 8px;
+}
+.text-list .napgame .box-hidden a:hover {
+  color: #de4108;
 }
 .napgame .card {
   cursor: pointer;
@@ -456,8 +504,9 @@ ul li {
   /* background: #ed5a25; */
   display: flex;
 }
+
 .body-head .pay-opts {
-  width: 65%;
+  width: 100%;
   height: 1325px;
 }
 .body-head .info-pay {
@@ -472,6 +521,7 @@ ul li {
   border-radius: 15px;
   border-width: 1px;
 }
+
 .body-head .pay-onl .box {
   margin-top: 8px;
   display: flex;
@@ -479,7 +529,7 @@ ul li {
   height: 91px;
   border-width: 1px;
   border-radius: 15px;
-  /* background-color: aqua; */
+  background-color: rgba(255, 255, 255, 1);
   align-items: center;
   justify-content: space-around;
   border: 1px solid #ffebe0;
@@ -556,6 +606,7 @@ ul li {
   border: 1px solid #ffebe0;
   opacity: 1;
   border-radius: 15px;
+  background-color: rgba(255, 255, 255, 1);
 }
 .body-head .pay-onl-list {
   margin-top: 29px;
@@ -623,6 +674,7 @@ ul li {
   height: 248px;
   border: 1px solid #ffebe0;
   border-radius: 15px;
+  background-color: rgba(255, 255, 255, 1);
 }
 .body-head .pay-off-list .list-box .box {
   margin-top: 10px;
@@ -701,6 +753,7 @@ ul li {
   opacity: 1;
   border-radius: 15px;
   border: 1px solid #fff4f1;
+  background-color: rgba(255, 255, 255, 1);
 }
 .card .box-bottom .list-vou {
   width: 704px;
@@ -751,10 +804,12 @@ ul li {
   line-height: 20px;
 }
 .box2 {
+  padding: 10px;
   width: 704px;
   height: 124px;
   border-radius: 15px;
   margin: 20px auto;
+  background: rgb(221, 219, 224);
 }
 .box2 .info {
   display: flex;
@@ -786,8 +841,14 @@ ul li {
 #garena:checked ~ label[for="garena"],
 #zing:checked ~ label[for="zing"] {
   background-color: #de4108;
-  color: #fff;
   border-color: #c23000;
+}
+#viettel:checked ~ label[for="viettel"] .text p,
+#mobifone:checked ~ label[for="mobifone"] .text p,
+#vinaphone:checked ~ label[for="vinaphone"] .text p,
+#garena:checked ~ label[for="garena"] .text p,
+#zing:checked ~ label[for="zing"] .text p {
+  color: #ffebe0;
 }
 .qr {
   margin-top: 10px;
@@ -828,6 +889,7 @@ h1 {
   border: 1px solid #ffebe0;
   border-radius: 12px;
   margin-top: 30px;
+  background-color: rgba(255, 255, 255, 1);
 }
 .info-pay .box-pay .desc {
   font-family: Quicksand;
@@ -892,7 +954,7 @@ h1 {
 }
 .info-pay .box-pay .box2 {
   width: 337px;
-  height: 58.5px;
+  height: 75px;
   border-radius: 10px;
   /* padding-top: 20px; */
   background-color: rgba(247, 247, 247, 1);
@@ -926,6 +988,7 @@ h1 {
   background-color: #de4108;
   width: 80%;
   margin-left: 10%;
+  border: none;
 }
 .info-pay .box-pay .btn2:active {
   background-color: #c23000;

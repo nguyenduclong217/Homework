@@ -7,11 +7,24 @@ html {
   font-size: 10px;
 }
 body {
-  width: 1400px;
+  /* width: 1400px; */
+  overscroll-behavior: none;
 }
 input {
   border: none;
 }
+/* ======================================================== */
+.nav2,
+.square,
+.list-item2,
+.title-container select,
+.list-products-hot,
+.box-hidden3,
+.img4,
+.home-menu {
+  display: none;
+}
+/* =========================================================== */
 a {
   text-decoration: none;
   /* color: black; */
@@ -32,6 +45,13 @@ ul li {
   align-items: center;
   justify-content: space-between;
 }
+.page-home {
+  padding-top: 20px;
+  background-color: rgb(255, 251, 244);
+  width: 1440px;
+  margin: 0 auto;
+  margin-top: 160px;
+}
 .btn {
   display: inline-block;
   color: white;
@@ -47,9 +67,28 @@ ul li {
   cursor: pointer;
 }
 .top {
-  width: 100%;
+  /* width: 100%; */
+  width: 1440px;
   height: 39px;
+  margin: 0 auto;
   background: #ed5a25;
+}
+.main {
+  width: 1440px;
+  margin: 0 auto;
+  /* background: #ed5a25; */
+}
+.text-list {
+  width: 1440px;
+  margin: 0 auto;
+}
+.header {
+  position: fixed;
+  z-index: 994;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  /* width: 100%; */
 }
 .header-top-left span {
   font-family: Quicksand;
@@ -207,6 +246,12 @@ ul li {
   border-radius: 0 12px 12px 0;
   padding-left: 10px;
   border: 1px solid #fff4f1;
+  padding-left: 10px;
+  padding-right: 40px;
+  outline: none;
+}
+.header-main .header-search .header-search-input:focus {
+  border: 1px solid #de4108;
 }
 .header-main .header-search img {
   position: absolute;
@@ -242,32 +287,54 @@ ul li {
   position: absolute;
   width: 1200px;
   display: none;
-  background: blanchedalmond;
+  background: rgba(255, 255, 255, 1);
   top: 33px;
   left: -86px;
   z-index: 9999;
 }
-
+.header-menu-item .box-hidden .list-select-main {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.product .product-card:hover {
+  border: 1px solid #ed5a25;
+  box-shadow: 0 0 3px #ed5a25;
+}
+.product .product-card .btn2:hover {
+  background-color: #bea4a1;
+}
 .header .list .header-menu-item .close {
   display: flex;
 }
-.text-list .list .list-select-main {
-  width: 266px;
-  height: 270px;
-  margin: 20px;
-  margin-left: 48px;
+.text-list .nav span {
+  font-family: Quicksand;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 1.42rem;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: middle;
 }
-
+.text-list .nav .header-hotline {
+  color: #555;
+}
 .text-list .list .list-select-main .choose a {
   font-weight: 500;
   font-style: Medium;
   font-size: 1.6rem;
-  color: #ed5a25;
+  color: rgba(50, 50, 50, 1);
   display: block;
   height: 35px;
   display: flex;
   align-items: center;
   transition: 0.3s;
+}
+.text-list .list .list-select-main .choose:hover a {
+  color: #ed5a25;
+}
+.text-list .list .list-select-main .choose:hover i {
+  color: #ed5a25;
 }
 .text-list .list .list-select-main .choose i {
   transform: rotate(-90deg);
@@ -296,8 +363,12 @@ ul li {
   font-weight: 500;
   font-style: Medium;
   font-size: 1.4rem;
-  color: chocolate;
+  color: rgba(50, 50, 50, 1);
   line-height: 26px;
+}
+.list .box-hidden .box-list .box1 a:hover {
+  color: #ed5a25;
+  text-decoration: underline;
 }
 .list .box-hidden .box-list .box1 li {
   width: 150px;
@@ -328,7 +399,6 @@ ul li {
   position: fixed;
   inset: 30% 0 0 0;
   background: rgba(0, 0, 21, 0.713);
-
   z-index: 0;
 }
 
@@ -356,7 +426,7 @@ ul li {
   height: 151px;
   border-radius: 10px;
   display: none;
-  background: rgba(255, 240, 236, 1);
+  background: rgba(255, 255, 255, 1);
   z-index: 3;
   top: 33px;
 }
@@ -369,7 +439,7 @@ ul li {
 .text-list .napgame:hover .card i {
   color: #ed5a25;
   transform: rotate(180deg);
-  margin-bottom: 3px;
+  /* margin-bottom: 3px; */
 }
 .text-list .napgame:hover .card span {
   color: #ed5a25;
@@ -383,10 +453,13 @@ ul li {
   font-weight: 500;
   font-style: Medium;
   font-size: 1.4rem;
-  color: chocolate;
+  color: rgba(50, 50, 50, 1);
   line-height: 26px;
   display: flex;
   margin-left: 8px;
+}
+.text-list .napgame .box-hidden a:hover {
+  color: #ed5a25;
 }
 .napgame .card {
   cursor: pointer;
@@ -445,7 +518,7 @@ ul li {
   font-family: Quicksand;
   font-weight: 500;
   font-style: Medium;
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   color: rgba(86, 86, 86, 1);
 }
 /* ===========================container================= */
@@ -465,6 +538,18 @@ ul li {
 .container-right {
   width: 916px;
   height: 2108px;
+}
+.container-right p {
+  margin-top: 10px;
+  margin-left: 12px;
+  font-family: Manrope;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 1.8rem;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgba(50, 50, 50, 1);
 }
 .container-right .product {
   width: 916px;
@@ -497,6 +582,9 @@ ul li {
   width: 162.58740234375px;
   margin: 18px 38px 8px 15px;
 }
+.header-nav {
+  box-shadow: 0 3px 5px #d9d7d7;
+}
 .product-card .product-card-price {
   font-family: Quicksand;
   font-weight: 600;
@@ -506,6 +594,9 @@ ul li {
   color: #ed5a25;
   margin-top: 8px;
   margin-left: 15px;
+}
+.product-card .btn2 i {
+  margin-right: 8px;
 }
 .product-card .btn2 {
   margin-top: 12px;
@@ -518,6 +609,7 @@ ul li {
   border: 1px solid #fff4f1;
   margin-left: 19px;
   position: relative;
+  /* display: flex; */
 }
 .product-card .icon-buy {
   position: absolute;
@@ -601,6 +693,11 @@ ul li {
 }
 .container-left .products-category .name-products li a {
   color: rgba(62, 62, 62, 1);
+}
+.container-left .products-category .name-products li a:hover {
+  color: #ed5a25;
+  text-decoration: underline;
+  font-size: 1.5rem;
 }
 .container-left .price-range {
   margin-top: 24px;
@@ -904,6 +1001,21 @@ ul li {
 .list-page .active {
   background: #de4108;
   color: #fff;
+}
+.container-right .title-container h3 {
+  font-family: Manrope;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 1.5rem;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgba(50, 50, 50, 1);
+  width: 95%;
+  margin: 10px auto;
+}
+.list-page .next i {
+  color: #555;
 }
 
 /* ================================================== */

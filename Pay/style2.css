@@ -7,22 +7,23 @@
 html {
   font-size: 10px;
 }
-
 body {
-  width: 1400px;
-  font-family: "Manrope", sans-serif;
+  background: url(./img/v904-nunny-017-d\ 1.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  overscroll-behavior: none;
 }
-
 input {
   border: none;
   outline: none;
 }
 .container {
-  width: 1400px;
-  max-width: 95%;
-  background: #fff;
+  margin: 0 auto;
+  width: 1440px;
+  /* max-width: 95%; */
 }
 .box {
+  /* background-color: red; */
   width: 1006px;
   height: 643px;
   border-radius: 21px;
@@ -31,6 +32,7 @@ input {
   text-align: center;
   margin: 0 auto;
   border: 1px solid #e0e0e0;
+  background: #fff;
 }
 .box3 {
   width: 531px;

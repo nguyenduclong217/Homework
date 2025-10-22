@@ -9,8 +9,10 @@ html {
 }
 
 body {
-  width: 1400px;
-  font-family: "Manrope", sans-serif;
+  background: url(./img/v904-nunny-017-d\ 1.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  overscroll-behavior: none;
 }
 
 input {
@@ -32,8 +34,12 @@ input {
 }
 
 .pay-page {
+  margin: 0 auto;
   width: 1440px;
   height: 900px;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 21px;
+  border: 1px solid rgba(229, 229, 229, 1);
 }
 
 .payment-page {
@@ -133,6 +139,7 @@ input {
   border-radius: 10px;
   margin-left: 10px;
   background: rgba(237, 237, 237, 1);
+  padding: 0 20px;
 }
 .box .payment-form .box3 .half1 {
   margin-top: 10px;
@@ -153,6 +160,7 @@ input {
   border-radius: 10px;
   margin-left: 10px;
   background: rgba(237, 237, 237, 1);
+  padding: 0 20px;
 }
 .half1 {
   position: relative;

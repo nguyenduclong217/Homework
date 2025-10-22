@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive-product.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Quicksand:wght@300..700&display=swap"
@@ -14,7 +15,9 @@
   </head>
   <body>
     <!-- header -->
-    <div class="header">
+      <input type="checkbox" id="menu" hidden>
+    <div class="page-home">
+          <div class="header">
       <div class="top">
         <div class="header-top">
           <div class="header-top-left"><p>Về chúng tôi</p></div>
@@ -24,19 +27,18 @@
              <i class="fa-solid fa-chevron-down"></i></div>
             <div class="lang"><span>ENG</span>
              <i class="fa-solid fa-chevron-down"></i></div>
-            <div class="acc"><img src="./icon/mingcute_user-4-line.svg" alt="">
-              <span>Tài khoản</span></div>
+            <a href="/f8-zoom-module-1/Account2/ac-tag1.html" class="acc"><img src="./icon/mingcute_user-4-line.svg" alt="">
+              <span>Tài khoản</span></a>
           </div>
           </div>
         </div>
       </div>
-
       <div class="main">
         <div class="header-main">
           <div class="head">
-            <div class="header-logo">
-              <img src="./icon/Frame 314870.svg" alt="" />
-            </div>
+            <a href="#" class="header-logo">
+              <img src="./icon/Frame 314870.svg" alt="img" />
+            </a>
             <div class="header-search">
          
                <div class="voucher">
@@ -65,6 +67,7 @@
       <div class="text-list">
         <div class="header-nav">
           <div class="nav">
+            <img src="./img2/Vector.svg" alt="33" class="square">
             <div class="list">
               <div class="header-menu">Trang chủ</div>
               <div class="header-menu-item">
@@ -72,7 +75,6 @@
                   <span>Thẻ điện thoại</span>
                    <i class="fa-solid fa-chevron-down"></i>
                 </div>
-                <div class="overlay"></div>
                 <div class="box-hidden">
                   <div class="close">
                     <div class="list-select-main">
@@ -104,8 +106,7 @@
                           <a href="">IMo girf car</a>
                         </li>
                         <li>
-                          <a href="">
-WTFast card</a>
+                          <a href="">WTFast card</a>
                         </li>
                         <li>
                           <a href="">Nike Gift card</a>
@@ -222,20 +223,60 @@ WTFast card</a>
                 </div>
               </div> 
             </div>
-            <div class="header-hotline"><img src="./icon/Vector (5).svg" alt=""><span>Hotline: 19200 10800</span></div>
+            <a href="tel:19200 10800" class="header-hotline"><img src="./img2/Group 21828.svg" alt="phone-img" class="img4"><img src="./icon/Vector (5).svg" alt="" class="img3"><span>Hotline: 19200 10800</span></a>
           </div>
         </div>
+      </div>
+      <div class="nav2">
+        <label for="menu">
+         <img src="./img2/ic_round-menu.svg" alt="img">
+        </label>
+        <div class="icon2">
+          <img src="./img2/gg_search.svg" alt="">
+          <img src="./img2/Vector (2).svg" alt="">
+        </div>
+      </div>
+      
+      <div class="home-menu">
+        <div class="title">
+          <div class="img"><img src="./img2/Group 21825.svg" alt="img"></div>
+          <label for="menu" ><i class="fa-solid fa-x"></i></label>
+          </div>
+          <hr>
+          <div class="list-select">
+            <div class="box">
+              <a class="title-small">Card voucher</a>
+               <i class="fa-solid fa-chevron-down"></i>
+            </div>
+            <div class="box">
+              <a href="/f8-zoom-module-1/Naptien/nap-tien-tag1.html" class="title-small">Top-Up</a>
+               <i class="fa-solid fa-chevron-down"></i>
+            </div>
+            <div class="box">
+              <a href="/f8-zoom-module-1/accoun/sign-up.html" class="title-small">Contact us</a>
+               <i class="fa-solid fa-chevron-down"></i>
+            </div>
+          </div>
       </div>
     </div>
     <!-- ======================================================== -->
      <div class="container">
         <div class="head-container">
-              <img src="./img/Mask group (16).svg" alt="img" >
+                <img src="./img/Mask group (16).svg" alt="img" class="background">
             <img src="./img/image (18).svg" alt="img" class="img">
+            <img src="./img2/Mask group (4).svg" alt="img" class="img2">
+
             <div class="text">
                 <h1>IMO Gift Card USD 1</h1>
             <div class="desc">Lưu ý quan trọng: Mã Steam Wallet (VND) do SEAGM bán là mã kỹ thuật số. Mã có thể đổi được theo Khu vực / Cài đặt tiền tệ Steam Wallet của bạn.</div>
-            </div>  
+            </div>
+            <div class="text2">
+              <h1>IMO Gift Card USD 1</h1>
+              <div class="box-icon2">
+                <span><i class="fa-solid fa-star"></i> Vietnam</span>
+                <span> <i class="fa-solid fa-bolt"></i> Giao hàng </span>
+              </div>
+            </div>
         </div>
        <div class="big-box">
          <div class="list-products">
@@ -329,6 +370,24 @@ WTFast card</a>
             </div>
         </div>
         <div class="cart-summary">
+          <div class="card-product">
+                    <div class="text-info">
+                      <img src="./img/image (19).svg" alt="">
+                    <div class="info-product">
+                        <div class="name">Steam Wallet Code 75,000 VND</div>
+                        <div class="price">
+                            <div class="new-price">đ 78,879</div>
+                            <div class="old-price">đ 79,879</div>
+                        </div>
+                        <div class="static">
+                          <img src="./img2/bitcoin-icons_lightning-filled.svg" alt="icon">
+                          <span>Giao ngay</span>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="line"></div>
+                    <label for="">Chọn sản phẩm</label>
+                </div>
             <div class="quantity">
                 <p>Số lượng</p>
                <div class="numb">
@@ -358,6 +417,10 @@ WTFast card</a>
                     <span class="number">120.23 đ</span>
                 </div>
                 <div class="btn btn2">Thanh toán</div>
+               <div class="block-box">
+                 <button class="btn btn3">Thêm vào giỏ </button>
+                 <button class="btn btn3">Thanh toán</button>
+               </div>
                </div>
             </div>
         </div>
@@ -365,10 +428,10 @@ WTFast card</a>
        <div class="body-nav">
         <div class="nav">
          <div class="box-input">
-          <input type="radio" name="tab" id="Description" hidden checked>
-          <input type="radio" name="tab" id="Guide" hidden>
-         <label for="Description">Description</label>
-         <label for="Guide">Guide</label>
+          <input type="radio" name="tab" id="description" hidden checked>
+          <input type="radio" name="tab" id="guide" hidden>
+         <label for="description">Description</label>
+         <label for="guide">Guide</label>
           <label class="hh"><input type="checkbox" hidden><span>Review</span></label>
           <label class="hh"><input type="checkbox" hidden><span>FQA</span></label>
          </div>
@@ -602,6 +665,7 @@ WTFast card</a>
       </div>
       <p class="footer-copy">© 2024 by NapThe. All Rights Reserved</p>
       </div>
+    </div>
     </div>
   </body>
   </html>
