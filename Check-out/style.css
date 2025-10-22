@@ -31,7 +31,7 @@ a {
 .page-home {
   padding-top: 20px;
   background-color: rgb(253, 253, 253);
-  width: 1440px;
+  /* width: 1440px; */
   margin: 0 auto;
   margin-top: 160px;
 }
@@ -1089,4 +1089,7 @@ h1 {
   text-align: center;
   background: rgba(255, 244, 241, 1);
   line-height: 50px;
+}
+.footer-comany a {
+  display: flex;
 }

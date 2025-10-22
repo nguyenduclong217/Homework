@@ -14,11 +14,13 @@ body {
   background: url(./img/b991d02362a616e99cd1c0e94dd17dc1b377951a.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  /* overflow: hidden; */
+
   display: flex;
   overscroll-behavior: none;
 
   align-items: center;
+  width: 100vw;
+  height: 100vh;
 }
 ul li {
   display: none;
@@ -26,7 +28,13 @@ ul li {
 a {
   text-decoration: none;
 }
-
+.page-sign-up {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .auth-container {
   width: 1016px;
   height: 488px;

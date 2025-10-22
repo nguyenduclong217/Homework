@@ -41,7 +41,7 @@ a {
 .page-home {
   /* padding-top: 20px; */
   background-color: rgb(255, 251, 244);
-  width: 1440px;
+  /* width: 1440px; */
   margin: 0 auto;
   margin-top: 140px;
 }
@@ -211,6 +211,7 @@ ul li {
 }
 .background-head {
   background-color: rgba(255, 219, 206, 0.604);
+  /* width: 1200px; */
 }
 .header-main .header-search .voucher-btn {
   display: flex;
@@ -327,6 +328,9 @@ ul li {
   display: flex;
   align-items: center;
   transition: 0.3s;
+}
+.img1 {
+  width: 1200px;
 }
 .nav {
   display: flex;
@@ -502,7 +506,7 @@ ul li {
 }
 .background-head {
   margin: 0 auto;
-  width: 1440px;
+  width: 1200px;
 }
 .container {
   overflow: hidden;
@@ -890,4 +894,7 @@ ul li {
   text-align: center;
   background: rgba(255, 244, 241, 1);
   line-height: 50px;
+}
+.footer-comany a {
+  display: flex;
 }

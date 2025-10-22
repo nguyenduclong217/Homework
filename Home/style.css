@@ -8,6 +8,7 @@ html {
 }
 body {
   /* width: 1400px; */
+  /* overflow-x: hidden; */
   overscroll-behavior: none;
 }
 input {
@@ -48,9 +49,10 @@ title,
   display: none;
 }
 .page-home {
+  width: 100%;
   padding-top: 20px;
   background-color: rgb(255, 251, 244);
-  width: 1440px;
+  /* max-width: 1440px; */
   margin: 0 auto;
 }
 
@@ -65,7 +67,6 @@ ul li {
   top: 0;
   left: 50%;
   transform: translateX(-50%);
-  /* width: 100%; */
 }
 .header .header-top {
   width: 1200px;
@@ -536,6 +537,10 @@ ul li {
   color: rgba(86, 86, 86, 1);
 }
 /* ============================================================== */
+.container {
+  /* width: 1200px; */
+  /* margin: 0 auto; */
+}
 .background-head {
   width: 1200px;
   height: 426px;
@@ -891,6 +896,9 @@ ul li {
   justify-content: center;
   align-items: center;
 }
+.background-two .text a:active {
+  background-color: #d1a899;
+}
 
 .background-two .text img {
   width: 15px;
@@ -1114,6 +1122,9 @@ ul li {
   color: #ff875c;
   justify-content: center;
   align-items: center;
+}
+.list-voucher .text a:active {
+  background-color: #d7a897;
 }
 
 .list-voucher .text img {
@@ -1409,6 +1420,7 @@ ul li {
   border: 1px solid #fff4f1;
   /* display: flex; */
   border-radius: 20px;
+  cursor: pointer;
 }
 .news-romotions .product-card:hover {
   border: 1px solid #ff875c;
@@ -1540,6 +1552,9 @@ ul li {
   text-align: center;
   background: rgba(255, 244, 241, 1);
   line-height: 50px;
+}
+.footer-comany a {
+  display: flex;
 }
 /* ============responsive============= */
 

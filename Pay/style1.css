@@ -13,6 +13,8 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   overscroll-behavior: none;
+  width: 100vw;
+  height: 100vh;
 }
 
 input {
@@ -35,17 +37,22 @@ input {
 
 .pay-page {
   margin: 0 auto;
-  width: 1440px;
-  height: 900px;
-  background-color: rgba(255, 255, 255, 1);
+  width: 100vw;
+  height: 100vh;
   border-radius: 21px;
   border: 1px solid rgba(229, 229, 229, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .payment-page {
   width: 1006px;
   height: 700px;
   margin: 75px auto 0;
+  background-color: rgba(255, 255, 255, 1);
+  padding: 20px 0;
+  border-radius: 21px;
 }
 .payment-page .title {
   font-family: Quicksand;
@@ -67,6 +74,7 @@ input {
   border-width: 1px;
   border: 1px solid rgba(229, 229, 229, 1);
   background-color: rgba(255, 244, 241, 1);
+  margin: 0 auto;
 }
 .payment-page .box .order-info .order-row {
   width: 941px;

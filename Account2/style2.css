@@ -63,17 +63,17 @@ ul li {
 .page-home {
   padding-top: 20px;
   background-color: rgb(255, 251, 244);
-  width: 1440px;
+  /* width: 1440px; */
   margin: 0 auto;
   /* margin-top: 160px; */
 }
 .header {
+  height: 127px;
   position: fixed;
-  z-index: 999;
   top: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  /* width: 100%; */
+  left: 0;
+  right: 0;
+  z-index: 999;
 }
 .top {
   /* width: 100%; */
@@ -985,4 +985,7 @@ ul li {
   text-align: center;
   background: rgba(255, 244, 241, 1);
   line-height: 50px;
+}
+.footer-comany a {
+  display: flex;
 }

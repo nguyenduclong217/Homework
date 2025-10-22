@@ -62,6 +62,23 @@
   body {
     /* width: 1400px; */
   }
+  .header {
+    width: 436px;
+    margin: 0 auto;
+    display: block;
+  }
+  .title-hear {
+    width: 436px;
+  }
+  .products-hot {
+    width: 436px;
+  }
+  .container {
+    width: 436px;
+  }
+  .footer {
+    width: 426px;
+  }
   .header-hotline {
     font-family: Quicksand;
     font-weight: 600;
@@ -81,8 +98,9 @@
   .page-home {
     padding-top: 20px;
     background-color: rgb(255, 251, 244);
-    width: 1440px;
-    margin: 0 auto;
+    width: 436px;
+    /* margin: 0 auto; */
+    /* width: 100%; */
     margin-top: 20px;
   }
   .header .text-list {
@@ -144,7 +162,6 @@
   .home-menu .list-select .box:hover {
     background-color: aqua;
   }
-
   .home-menu .title {
     padding: 20px;
     display: flex;
@@ -763,6 +780,7 @@
   }
   .products-hot .list-products-hot {
     display: block;
+    width: 436px;
   }
   .products-hot .list-products-hot .voucher {
     max-width: 400px;

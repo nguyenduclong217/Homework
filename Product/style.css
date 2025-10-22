@@ -58,12 +58,15 @@ ul li {
 .page-home {
   /* padding-top: 20px; */
   background-color: rgb(255, 251, 244);
-  width: 1440px;
+  width: 1200px;
   margin: 0 auto;
   margin-top: 140px;
 }
 .header-hotline {
   color: black;
+}
+.background {
+  width: 1200px;
 }
 .btn {
   display: inline-block;
@@ -495,10 +498,11 @@ ul li {
 .container {
   width: 1200xp;
   height: 2400px;
+  background-color: rgba(255, 255, 255, 1);
   /* background-color: #ff875c; */
 }
 .container .head-container {
-  width: 1444px;
+  width: 1200px;
   height: 223.93601989746094px;
   background-color: rgba(255, 244, 241, 1);
   position: relative;
@@ -1114,4 +1118,7 @@ i {
   text-align: center;
   background: rgba(255, 244, 241, 1);
   line-height: 50px;
+}
+.footer-comany a {
+  display: flex;
 }

@@ -47,6 +47,14 @@ ul li {
   user-select: none;
   cursor: pointer;
 }
+.header {
+  height: 127px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+}
 .square,
 .nav2,
 .img2,
@@ -70,7 +78,7 @@ ul li {
 .page-home {
   padding-top: 20px;
   background-color: rgb(255, 251, 244);
-  width: 1440px;
+  /* width: 1440px; */
   margin: 0 auto;
   /* margin-top: 100px; */
 }
@@ -267,7 +275,6 @@ ul li {
 .text-list .nav .list {
   display: flex;
   justify-content: center;
-  /* background-color: blue; */
 }
 .text-list .nav .list .header-menu-item {
   display: flex;
@@ -278,10 +285,6 @@ ul li {
 .header .list .header-menu-item .card {
   z-index: 99;
   cursor: pointer;
-  /* display: flex; */
-  /* gap: 8px; */
-  /* width: 115.24571228027344px;
-  height: 21.0285701751709px; */
 }
 .header-nav .nav {
   display: flex;
@@ -421,6 +424,9 @@ ul li {
   border-radius: 50%;
   border: 1px solid rgba(92, 92, 92, 1);
 }
+.img1 {
+  width: 1200px;
+}
 
 .text-list .header-menu {
   font-family: Quicksand;
@@ -482,7 +488,7 @@ ul li {
 }
 .background-head {
   margin: 0 auto;
-  width: 1440px;
+  /* width: 1440px; */
 }
 .container {
   display: flex;
@@ -492,7 +498,7 @@ ul li {
   width: 1200px;
   margin: 0 auto; /* fix */
   height: 1850px;
-  margin-top: -100px;
+  /* margin-top: -100px; */
 }
 
 .content-heading {
@@ -513,8 +519,6 @@ ul li {
 .content-heading div[class*="part-"] {
   cursor: pointer;
   border-radius: 99999px;
-  /* width: 200px; */
-  /* border: 1px solid red; */
 }
 .content-heading label {
   cursor: pointer;
@@ -695,7 +699,6 @@ li {
   color: #836363;
 }
 .content-des .part-1 strong {
-  /* font-size: 1.7rem; */
   font-family: Quicksand;
   font-weight: 400;
   font-style: Regular;
@@ -704,7 +707,7 @@ li {
   letter-spacing: 0%;
   color: #836363;
 }
-/* =====end part 1============ */
+/*=====end part 1============ */
 
 .content-des .part-3 {
   height: 1800px;
@@ -739,9 +742,7 @@ li {
   leading-trim: NONE;
   line-height: 24px;
   letter-spacing: 0%;
-  /* text-decoration: underline; */
   text-decoration-style: solid;
-  text-decoration-offset: 0%;
   text-decoration-thickness: 0%;
   /* ==================end box 3=========== */
 }
@@ -946,4 +947,7 @@ li {
   text-align: center;
   background: rgba(255, 244, 241, 1);
   line-height: 50px;
+}
+.footer-comany a {
+  display: flex;
 }

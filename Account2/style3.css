@@ -928,3 +928,6 @@ ul li {
   background: rgba(255, 244, 241, 1);
   line-height: 50px;
 }
+.footer-comany a {
+  display: flex;
+}

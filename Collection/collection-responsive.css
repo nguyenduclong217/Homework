@@ -137,9 +137,7 @@
     display: block;
     transform: translateX(0);
   }
-  #menu:checked + .overlay {
-    display: block;
-  }
+
   .text-list {
     max-width: 429px;
     max-height: 52px;

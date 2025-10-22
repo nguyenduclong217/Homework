@@ -12,6 +12,11 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   overscroll-behavior: none;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 input {
   border: none;

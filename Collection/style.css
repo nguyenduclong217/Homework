@@ -48,7 +48,7 @@ ul li {
 .page-home {
   padding-top: 20px;
   background-color: rgb(255, 251, 244);
-  width: 1440px;
+  /* width: 1440px; */
   margin: 0 auto;
   margin-top: 160px;
 }
@@ -533,7 +533,6 @@ ul li {
 .container-left {
   width: 267px;
   height: 2108px;
-  /* background-color: #ed5a25; */
 }
 .container-right {
   width: 916px;
@@ -960,6 +959,9 @@ ul li {
   align-items: center;
   background-color: #ffebe0;
 }
+.image a:active {
+  background: #ba9689;
+}
 .image .img {
   margin: 44px auto 30px;
 }
@@ -1115,4 +1117,7 @@ ul li {
   text-align: center;
   background: rgba(255, 244, 241, 1);
   line-height: 50px;
+}
+.footer-comany a {
+  display: flex;
 }
